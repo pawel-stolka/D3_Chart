@@ -19,20 +19,17 @@
         margin: auto;
         text-align: center;
         font-family: sans-serif;
-        font-weight: 200;
+        font-weight: 300;
     }
     </style>
 </head>
 
 <body>
-
-    <h2>Trainings In Time</h2>
-
+    <h2>Trainings in Time</h2>
     <div id="chart">
     </div>
 
     <script>
-
     // Set the dimensions of the canvas / graph
     var margin = {
         top: 30,
@@ -47,8 +44,6 @@
     var width = w - margin.left - margin.right,
         height = h - margin.top - margin.bottom;
 
-    // we have data variable in svg and in the data.js array, 
-    // so to make it simple to change later, let's assign it like that
     var data = data;
 
     data.forEach(function(d) {
@@ -60,28 +55,46 @@
         .attr("height", height);
 
     // let's start to draw a chart!
+    function calculateX(d, i) {
+        var ret = i * width / data.length;// i * 10;
+
+        return ret;
+    }
+
+    function calculateY(d, i) {
+        var ret = 0;
+        return ret;
+    }
+
+    function calculateWidth() {
+        var ret = width / data.length;
+        return ret;
+    }
+
+    function calculateHeight(d, i) {
+        var ret = i * 0.25;
+        return ret;
+    }
+
     svg.selectAll("rect")
         .data(data)
         .enter()
         .append("rect")
         .attr({
             x: function(d, i) {
-                var ret = (width / data.length) * i;
+                return calculateX(d, i);
+            },
+            y: function(d, i) {
+                return calculateY(d, i);
+            },
+            width: function() {
+                var ret = calculateWidth();
                 return ret;
             },
-            y: function() {
-                var ret = 0;
-                return ret;
+            height: function(d, i) {
+                return calculateHeight(d, i);
             },
-            width: function(d) {
-                var ret =  width / data.length - 2;
-                return ret;
-            },
-            height: function() {
-                var ret = height / 2;
-                return ret;
-            },
-            fill: "purple"
+            fill: "purple"// "#aa00ff"
         });
     </script>
 </body>
