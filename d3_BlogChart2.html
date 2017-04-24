@@ -4,6 +4,9 @@
 <head>
     <script type="text/javascript" src="d3/d3.min.js"></script>
     <script type="text/javascript" src="scripts/data.js"></script>
+    <script type="text/javascript" src="scripts/data2.js"></script>
+    <script type="text/javascript" src="scripts/data3.js"></script>
+    <script type="text/javascript" src="scripts/data4.js"></script>
     <style>
     svg {
         display: block;
@@ -39,12 +42,21 @@
     };
     var w = 800,
         h = 500,
-        padding = 50;
+        padding = 70;
 
     var width = w - margin.left - margin.right,
         height = h - margin.top - margin.bottom;
 
-    var data = data;
+    // let's use data2.js & simplify it, take each 100th element
+    // var data = data;
+    var dataSmall = [];
+    details.forEach(function(d, i) {
+        if (i % 100 == 0) {
+            dataSmall.push(d);
+            // console.log("i " + i + ". d " + d.DateTime);            
+        }
+    })
+    var data = dataSmall;
 
     // parse string
     data.forEach(function(d) {
@@ -57,14 +69,48 @@
         .attr("height", height);
 
     // let's start to draw a chart!
+
+    // a bit more advanced => scaling axis! ;)
+    // so, first:
+
+    // scaling date range:
+    // domain -> it's our input
+    // we can scale it on
+    // range -> our output
+    // syntax:
+    // d3.scale.linear()...
+    // .domain([in_min,in_max])
+    // .range([out_min, out_max])
+    var yScale = d3.scale.linear() // or i.e. pow()
+        .domain([
+            d3.min(data, function(d) {
+                return d.Distance;
+            }),
+            d3.max(data, function(d) {
+                return d.Distance;
+            })
+        ])
+        .range([height - padding, padding])
+        .nice(); // rounds numbers
+
+
+    var yAxisGenerator = d3.svg.axis()
+        .scale(yScale)
+        .orient("left");
+
+    var yAxis = svg.append("g")
+        .call(yAxisGenerator)
+        .attr("class", "axisRed")
+        .attr("transform", "translate(" + padding + ", 0)");
+
     //  functions => look further
     function calculateX(d, i) {
-        var ret = i * width / data.length;
+        var ret = i * width / data.length + padding;
         return ret;
     }
 
     function calculateY(d, i) {
-        var ret = 0;
+        var ret = height - calculateHeight(d, i) - padding;
         return ret;
     }
 
@@ -74,7 +120,7 @@
     }
 
     function calculateHeight(d, i) {
-        var ret = i * 10;
+        var ret = yScale(d.Distance) - padding;
         return ret;
     }
 

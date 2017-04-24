@@ -1,0 +1,5881 @@
+var data3 = [{
+    "DateTime": "2016-02-01T10:44:33.000Z",
+    "Distance": "4.900000095367432",
+    "Latitude": "40.82357017",
+    "Longitude": "14.38636333",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:34.000Z",
+    "Distance": "4.900000095367432",
+    "Latitude": "40.82357017",
+    "Longitude": "14.38636333",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:35.000Z",
+    "Distance": "16.700000762939453",
+    "Latitude": "40.82366183",
+    "Longitude": "14.38643133",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:36.000Z",
+    "Distance": "28.100000381469727",
+    "Latitude": "40.82375067",
+    "Longitude": "14.386495",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:37.000Z",
+    "Distance": "38.29999923706055",
+    "Latitude": "40.82382917",
+    "Longitude": "14.38655517",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:38.000Z",
+    "Distance": "48.099998474121094",
+    "Latitude": "40.82389883",
+    "Longitude": "14.38662367",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:39.000Z",
+    "Distance": "57.400001525878906",
+    "Latitude": "40.82396033",
+    "Longitude": "14.38669683",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:40.000Z",
+    "Distance": "67.0",
+    "Latitude": "40.82402283",
+    "Longitude": "14.3867735",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:41.000Z",
+    "Distance": "85.5555542839898",
+    "Latitude": "40.82408",
+    "Longitude": "14.38682817",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:42.000Z",
+    "Distance": "104.11110856797961",
+    "Latitude": "40.82412933",
+    "Longitude": "14.38686333",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:43.000Z",
+    "Distance": "122.66666285196942",
+    "Latitude": "40.8241695",
+    "Longitude": "14.3868975",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:44.000Z",
+    "Distance": "141.22221713595923",
+    "Latitude": "40.82413967",
+    "Longitude": "14.38693583",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:45.000Z",
+    "Distance": "145.89999389648438",
+    "Latitude": "40.82406183",
+    "Longitude": "14.38697367",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:46.000Z",
+    "Distance": "145.89999389648438",
+    "Latitude": "40.8239355",
+    "Longitude": "14.38699133",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:47.000Z",
+    "Distance": "153.3000030517578",
+    "Latitude": "40.82384683",
+    "Longitude": "14.387014",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:48.000Z",
+    "Distance": "161.89999389648438",
+    "Latitude": "40.82377667",
+    "Longitude": "14.38704967",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:49.000Z",
+    "Distance": "164.8000030517578",
+    "Latitude": "40.82372017",
+    "Longitude": "14.387103",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:50.000Z",
+    "Distance": "165.1999969482422",
+    "Latitude": "40.82365833",
+    "Longitude": "14.38716367",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:51.000Z",
+    "Distance": "172.39999389648438",
+    "Latitude": "40.82359233",
+    "Longitude": "14.38722633",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:52.000Z",
+    "Distance": "187.3000030517578",
+    "Latitude": "40.82351717",
+    "Longitude": "14.387288",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:53.000Z",
+    "Distance": "203.10000610351562",
+    "Latitude": "40.82343667",
+    "Longitude": "14.387325",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:54.000Z",
+    "Distance": "214.6999969482422",
+    "Latitude": "40.82335",
+    "Longitude": "14.3873345",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:55.000Z",
+    "Distance": "223.5",
+    "Latitude": "40.82326317",
+    "Longitude": "14.38731",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:56.000Z",
+    "Distance": "230.10000610351562",
+    "Latitude": "40.823182",
+    "Longitude": "14.387273",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:57.000Z",
+    "Distance": "239.10000610351562",
+    "Latitude": "40.823099",
+    "Longitude": "14.38721533",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:58.000Z",
+    "Distance": "249.1999969482422",
+    "Latitude": "40.82302283",
+    "Longitude": "14.3871475",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:44:59.000Z",
+    "Distance": "259.3999938964844",
+    "Latitude": "40.82295217",
+    "Longitude": "14.387049",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:00.000Z",
+    "Distance": "269.3999938964844",
+    "Latitude": "40.8228895",
+    "Longitude": "14.3869495",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:01.000Z",
+    "Distance": "279.8999938964844",
+    "Latitude": "40.82283517",
+    "Longitude": "14.38686067",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:02.000Z",
+    "Distance": "290.0",
+    "Latitude": "40.822778",
+    "Longitude": "14.38680617",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:03.000Z",
+    "Distance": "299.29998779296875",
+    "Latitude": "40.822729",
+    "Longitude": "14.38678367",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:04.000Z",
+    "Distance": "306.3999938964844",
+    "Latitude": "40.8226795",
+    "Longitude": "14.38677767",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:05.000Z",
+    "Distance": "312.3999938964844",
+    "Latitude": "40.82263267",
+    "Longitude": "14.38679667",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:06.000Z",
+    "Distance": "318.0",
+    "Latitude": "40.82259017",
+    "Longitude": "14.3868125",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:07.000Z",
+    "Distance": "322.20001220703125",
+    "Latitude": "40.8225615",
+    "Longitude": "14.38682333",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:08.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.8225465",
+    "Longitude": "14.38681983",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:09.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.82253833",
+    "Longitude": "14.386817",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:10.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.82253217",
+    "Longitude": "14.38681667",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:11.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.82252883",
+    "Longitude": "14.386824",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:12.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.8225345",
+    "Longitude": "14.38685667",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:13.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.82254833",
+    "Longitude": "14.38690983",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:14.000Z",
+    "Distance": "324.29998779296875",
+    "Latitude": "40.822581",
+    "Longitude": "14.3869945",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:15.000Z",
+    "Distance": "325.79998779296875",
+    "Latitude": "40.82262383",
+    "Longitude": "14.38708767",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:16.000Z",
+    "Distance": "331.6000061035156",
+    "Latitude": "40.8226845",
+    "Longitude": "14.38723133",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:17.000Z",
+    "Distance": "341.29998779296875",
+    "Latitude": "40.8227445",
+    "Longitude": "14.38737267",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:18.000Z",
+    "Distance": "355.1000061035156",
+    "Latitude": "40.82281283",
+    "Longitude": "14.3875175",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:19.000Z",
+    "Distance": "371.6000061035156",
+    "Latitude": "40.82287867",
+    "Longitude": "14.3876335",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:20.000Z",
+    "Distance": "388.3999938964844",
+    "Latitude": "40.8229445",
+    "Longitude": "14.38775217",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:21.000Z",
+    "Distance": "406.20001220703125",
+    "Latitude": "40.8230045",
+    "Longitude": "14.38787917",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:22.000Z",
+    "Distance": "423.6000061035156",
+    "Latitude": "40.82305817",
+    "Longitude": "14.38800583",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:23.000Z",
+    "Distance": "440.1000061035156",
+    "Latitude": "40.82312483",
+    "Longitude": "14.3881325",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:24.000Z",
+    "Distance": "455.6000061035156",
+    "Latitude": "40.82320567",
+    "Longitude": "14.38824867",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:25.000Z",
+    "Distance": "470.6000061035156",
+    "Latitude": "40.82330633",
+    "Longitude": "14.38835467",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:26.000Z",
+    "Distance": "483.6000061035156",
+    "Latitude": "40.82340733",
+    "Longitude": "14.3884445",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:27.000Z",
+    "Distance": "496.5",
+    "Latitude": "40.8234935",
+    "Longitude": "14.38851367",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:28.000Z",
+    "Distance": "507.70001220703125",
+    "Latitude": "40.82355467",
+    "Longitude": "14.388569",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:29.000Z",
+    "Distance": "517.9000244140625",
+    "Latitude": "40.8235985",
+    "Longitude": "14.3886155",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:30.000Z",
+    "Distance": "525.7999877929688",
+    "Latitude": "40.82362317",
+    "Longitude": "14.38865983",
+    "Altitude": null,
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:31.000Z",
+    "Distance": "531.5999755859375",
+    "Latitude": "40.82363467",
+    "Longitude": "14.38869183",
+    "Altitude": "443.032",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:32.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.82362183",
+    "Longitude": "14.38869067",
+    "Altitude": "443.032",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:33.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.8235955",
+    "Longitude": "14.388648",
+    "Altitude": "443.337",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:34.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.823561",
+    "Longitude": "14.38858483",
+    "Altitude": "443.337",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:35.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.8235265",
+    "Longitude": "14.38853533",
+    "Altitude": "444.099",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:36.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.823491",
+    "Longitude": "14.38850867",
+    "Altitude": "444.099",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:37.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.82344983",
+    "Longitude": "14.38849267",
+    "Altitude": "445.318",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:38.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.8234035",
+    "Longitude": "14.38847333",
+    "Altitude": "445.318",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:39.000Z",
+    "Distance": "535.4000244140625",
+    "Latitude": "40.82335417",
+    "Longitude": "14.38844833",
+    "Altitude": "446.69",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:40.000Z",
+    "Distance": "536.4000244140625",
+    "Latitude": "40.82330317",
+    "Longitude": "14.38841117",
+    "Altitude": "446.69",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:41.000Z",
+    "Distance": "546.2999877929688",
+    "Latitude": "40.82325133",
+    "Longitude": "14.38836667",
+    "Altitude": "448.366",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:42.000Z",
+    "Distance": "554.5999755859375",
+    "Latitude": "40.82319833",
+    "Longitude": "14.38831867",
+    "Altitude": "448.366",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:43.000Z",
+    "Distance": "561.7999877929688",
+    "Latitude": "40.82314167",
+    "Longitude": "14.38827733",
+    "Altitude": "450.043",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:44.000Z",
+    "Distance": "568.5999755859375",
+    "Latitude": "40.82308317",
+    "Longitude": "14.38823433",
+    "Altitude": "450.043",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:45.000Z",
+    "Distance": "576.4000244140625",
+    "Latitude": "40.823023",
+    "Longitude": "14.38819483",
+    "Altitude": "451.567",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:46.000Z",
+    "Distance": "584.7000122070312",
+    "Latitude": "40.82296767",
+    "Longitude": "14.38815883",
+    "Altitude": "451.567",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:47.000Z",
+    "Distance": "592.7000122070312",
+    "Latitude": "40.8229195",
+    "Longitude": "14.38813333",
+    "Altitude": "453.091",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:48.000Z",
+    "Distance": "599.9000244140625",
+    "Latitude": "40.82287867",
+    "Longitude": "14.38812067",
+    "Altitude": "453.091",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:49.000Z",
+    "Distance": "605.9000244140625",
+    "Latitude": "40.82284233",
+    "Longitude": "14.3881335",
+    "Altitude": "454.615",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:50.000Z",
+    "Distance": "610.4000244140625",
+    "Latitude": "40.8228125",
+    "Longitude": "14.38817333",
+    "Altitude": "454.615",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:51.000Z",
+    "Distance": "614.0",
+    "Latitude": "40.822796",
+    "Longitude": "14.38823967",
+    "Altitude": "455.986",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:52.000Z",
+    "Distance": "617.4000244140625",
+    "Latitude": "40.82280083",
+    "Longitude": "14.3883195",
+    "Altitude": "455.986",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:53.000Z",
+    "Distance": "621.0",
+    "Latitude": "40.82283283",
+    "Longitude": "14.38839633",
+    "Altitude": "456.901",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:54.000Z",
+    "Distance": "624.2000122070312",
+    "Latitude": "40.82288517",
+    "Longitude": "14.38846217",
+    "Altitude": "456.901",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:55.000Z",
+    "Distance": "627.4000244140625",
+    "Latitude": "40.822949",
+    "Longitude": "14.38851383",
+    "Altitude": "457.51",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:56.000Z",
+    "Distance": "632.0",
+    "Latitude": "40.82301333",
+    "Longitude": "14.38856817",
+    "Altitude": "457.51",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:57.000Z",
+    "Distance": "639.2000122070312",
+    "Latitude": "40.82307817",
+    "Longitude": "14.388631",
+    "Altitude": "458.12",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:58.000Z",
+    "Distance": "648.5999755859375",
+    "Latitude": "40.823143",
+    "Longitude": "14.38870467",
+    "Altitude": "458.12",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:45:59.000Z",
+    "Distance": "659.2000122070312",
+    "Latitude": "40.82320583",
+    "Longitude": "14.38878633",
+    "Altitude": "459.034",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:00.000Z",
+    "Distance": "670.4000244140625",
+    "Latitude": "40.8232675",
+    "Longitude": "14.38887217",
+    "Altitude": "459.034",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:01.000Z",
+    "Distance": "682.2999877929688",
+    "Latitude": "40.82332867",
+    "Longitude": "14.3889605",
+    "Altitude": "459.949",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:02.000Z",
+    "Distance": "694.0999755859375",
+    "Latitude": "40.8233945",
+    "Longitude": "14.38904967",
+    "Altitude": "459.949",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:03.000Z",
+    "Distance": "705.5999755859375",
+    "Latitude": "40.82346633",
+    "Longitude": "14.38913733",
+    "Altitude": "460.863",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:04.000Z",
+    "Distance": "717.0",
+    "Latitude": "40.82354367",
+    "Longitude": "14.38921833",
+    "Altitude": "460.863",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:05.000Z",
+    "Distance": "728.5999755859375",
+    "Latitude": "40.82362017",
+    "Longitude": "14.3892905",
+    "Altitude": "461.93",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:06.000Z",
+    "Distance": "740.0",
+    "Latitude": "40.82368733",
+    "Longitude": "14.3893545",
+    "Altitude": "461.93",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:07.000Z",
+    "Distance": "750.4000244140625",
+    "Latitude": "40.823736",
+    "Longitude": "14.38941283",
+    "Altitude": "463.149",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:08.000Z",
+    "Distance": "759.2000122070312",
+    "Latitude": "40.82376083",
+    "Longitude": "14.389471",
+    "Altitude": "463.149",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:09.000Z",
+    "Distance": "766.0",
+    "Latitude": "40.82376117",
+    "Longitude": "14.3895235",
+    "Altitude": "464.216",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:10.000Z",
+    "Distance": "770.7000122070312",
+    "Latitude": "40.8237415",
+    "Longitude": "14.38955667",
+    "Altitude": "464.216",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:11.000Z",
+    "Distance": "773.2999877929688",
+    "Latitude": "40.82370683",
+    "Longitude": "14.38955317",
+    "Altitude": "465.283",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:12.000Z",
+    "Distance": "773.5999755859375",
+    "Latitude": "40.823665",
+    "Longitude": "14.38951217",
+    "Altitude": "465.283",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:13.000Z",
+    "Distance": "773.5999755859375",
+    "Latitude": "40.82361783",
+    "Longitude": "14.389455",
+    "Altitude": "466.502",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:14.000Z",
+    "Distance": "773.5999755859375",
+    "Latitude": "40.823564",
+    "Longitude": "14.389402",
+    "Altitude": "466.502",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:15.000Z",
+    "Distance": "774.7999877929688",
+    "Latitude": "40.82350267",
+    "Longitude": "14.38936467",
+    "Altitude": "467.569",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:16.000Z",
+    "Distance": "776.0999755859375",
+    "Latitude": "40.82343767",
+    "Longitude": "14.38933567",
+    "Altitude": "467.569",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:17.000Z",
+    "Distance": "779.5",
+    "Latitude": "40.8233705",
+    "Longitude": "14.38931583",
+    "Altitude": "468.636",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:18.000Z",
+    "Distance": "788.2999877929688",
+    "Latitude": "40.82330567",
+    "Longitude": "14.389308",
+    "Altitude": "468.636",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:19.000Z",
+    "Distance": "799.2000122070312",
+    "Latitude": "40.82324617",
+    "Longitude": "14.38932383",
+    "Altitude": "469.702",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:20.000Z",
+    "Distance": "809.0",
+    "Latitude": "40.82319867",
+    "Longitude": "14.38936433",
+    "Altitude": "469.702",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:21.000Z",
+    "Distance": "816.5999755859375",
+    "Latitude": "40.823165",
+    "Longitude": "14.38942417",
+    "Altitude": "470.769",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:22.000Z",
+    "Distance": "822.5999755859375",
+    "Latitude": "40.82314667",
+    "Longitude": "14.38949667",
+    "Altitude": "470.769",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:23.000Z",
+    "Distance": "828.0",
+    "Latitude": "40.82313767",
+    "Longitude": "14.38957433",
+    "Altitude": "471.989",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:24.000Z",
+    "Distance": "833.4000244140625",
+    "Latitude": "40.82313067",
+    "Longitude": "14.38965567",
+    "Altitude": "471.989",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:25.000Z",
+    "Distance": "838.5999755859375",
+    "Latitude": "40.823118",
+    "Longitude": "14.38973833",
+    "Altitude": "473.055",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:26.000Z",
+    "Distance": "843.7999877929688",
+    "Latitude": "40.82309933",
+    "Longitude": "14.38982267",
+    "Altitude": "473.055",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:27.000Z",
+    "Distance": "849.5999755859375",
+    "Latitude": "40.8230755",
+    "Longitude": "14.3899065",
+    "Altitude": "474.275",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:28.000Z",
+    "Distance": "856.7999877929688",
+    "Latitude": "40.82304567",
+    "Longitude": "14.3899845",
+    "Altitude": "474.275",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:29.000Z",
+    "Distance": "864.7000122070312",
+    "Latitude": "40.82300683",
+    "Longitude": "14.39004817",
+    "Altitude": "475.494",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:30.000Z",
+    "Distance": "872.5999755859375",
+    "Latitude": "40.82295933",
+    "Longitude": "14.39009517",
+    "Altitude": "475.494",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:31.000Z",
+    "Distance": "879.7000122070312",
+    "Latitude": "40.82290667",
+    "Longitude": "14.39012867",
+    "Altitude": "476.865",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:32.000Z",
+    "Distance": "886.2999877929688",
+    "Latitude": "40.82285333",
+    "Longitude": "14.39015667",
+    "Altitude": "476.865",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:33.000Z",
+    "Distance": "892.7999877929688",
+    "Latitude": "40.82280233",
+    "Longitude": "14.39018483",
+    "Altitude": "478.237",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:34.000Z",
+    "Distance": "899.0",
+    "Latitude": "40.82275817",
+    "Longitude": "14.390219",
+    "Altitude": "478.237",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:35.000Z",
+    "Distance": "904.4000244140625",
+    "Latitude": "40.82272633",
+    "Longitude": "14.3902625",
+    "Altitude": "479.761",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:36.000Z",
+    "Distance": "908.9000244140625",
+    "Latitude": "40.822716",
+    "Longitude": "14.3903195",
+    "Altitude": "479.761",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:37.000Z",
+    "Distance": "912.7999877929688",
+    "Latitude": "40.82273467",
+    "Longitude": "14.3903725",
+    "Altitude": "481.285",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:38.000Z",
+    "Distance": "915.7999877929688",
+    "Latitude": "40.82277717",
+    "Longitude": "14.39041467",
+    "Altitude": "481.285",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:39.000Z",
+    "Distance": "919.0",
+    "Latitude": "40.82283517",
+    "Longitude": "14.39044117",
+    "Altitude": "482.809",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:40.000Z",
+    "Distance": "923.0",
+    "Latitude": "40.8228995",
+    "Longitude": "14.390466",
+    "Altitude": "482.809",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:41.000Z",
+    "Distance": "927.5",
+    "Latitude": "40.822972",
+    "Longitude": "14.390493",
+    "Altitude": "484.181",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:42.000Z",
+    "Distance": "932.2000122070312",
+    "Latitude": "40.8230515",
+    "Longitude": "14.3905215",
+    "Altitude": "484.181",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:43.000Z",
+    "Distance": "938.2999877929688",
+    "Latitude": "40.8231335",
+    "Longitude": "14.3905495",
+    "Altitude": "485.552",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:44.000Z",
+    "Distance": "947.0",
+    "Latitude": "40.8232135",
+    "Longitude": "14.39057917",
+    "Altitude": "485.552",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:45.000Z",
+    "Distance": "958.2999877929688",
+    "Latitude": "40.82328883",
+    "Longitude": "14.39061483",
+    "Altitude": "486.924",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:46.000Z",
+    "Distance": "970.0999755859375",
+    "Latitude": "40.8233575",
+    "Longitude": "14.390661",
+    "Altitude": "486.924",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:47.000Z",
+    "Distance": "981.0999755859375",
+    "Latitude": "40.8234175",
+    "Longitude": "14.39072417",
+    "Altitude": "488.296",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:48.000Z",
+    "Distance": "991.2999877929688",
+    "Latitude": "40.82347",
+    "Longitude": "14.39080667",
+    "Altitude": "488.296",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:49.000Z",
+    "Distance": "1001.0",
+    "Latitude": "40.82351567",
+    "Longitude": "14.39090533",
+    "Altitude": "489.667",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:50.000Z",
+    "Distance": "1010.9000244140625",
+    "Latitude": "40.82355833",
+    "Longitude": "14.39100917",
+    "Altitude": "489.667",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:51.000Z",
+    "Distance": "1020.5999755859375",
+    "Latitude": "40.82360017",
+    "Longitude": "14.39111067",
+    "Altitude": "491.039",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:52.000Z",
+    "Distance": "1029.800048828125",
+    "Latitude": "40.823645",
+    "Longitude": "14.3912095",
+    "Altitude": "491.039",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:53.000Z",
+    "Distance": "1038.9000244140625",
+    "Latitude": "40.823694",
+    "Longitude": "14.3913065",
+    "Altitude": "492.563",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:54.000Z",
+    "Distance": "1048.5",
+    "Latitude": "40.82374667",
+    "Longitude": "14.39140217",
+    "Altitude": "492.563",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:55.000Z",
+    "Distance": "1058.9000244140625",
+    "Latitude": "40.82380067",
+    "Longitude": "14.39149683",
+    "Altitude": "493.782",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:56.000Z",
+    "Distance": "1069.699951171875",
+    "Latitude": "40.823854",
+    "Longitude": "14.39159083",
+    "Altitude": "493.782",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:57.000Z",
+    "Distance": "1080.5",
+    "Latitude": "40.82390667",
+    "Longitude": "14.39168333",
+    "Altitude": "495.154",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:58.000Z",
+    "Distance": "1090.9000244140625",
+    "Latitude": "40.82395883",
+    "Longitude": "14.39177267",
+    "Altitude": "495.154",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:46:59.000Z",
+    "Distance": "1100.5999755859375",
+    "Latitude": "40.82401867",
+    "Longitude": "14.3918495",
+    "Altitude": "496.373",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:00.000Z",
+    "Distance": "1110.0",
+    "Latitude": "40.82408417",
+    "Longitude": "14.39190483",
+    "Altitude": "496.373",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:01.000Z",
+    "Distance": "1118.800048828125",
+    "Latitude": "40.82415817",
+    "Longitude": "14.39192667",
+    "Altitude": "497.592",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:02.000Z",
+    "Distance": "1126.800048828125",
+    "Latitude": "40.82423217",
+    "Longitude": "14.39190517",
+    "Altitude": "497.592",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:03.000Z",
+    "Distance": "1134.0",
+    "Latitude": "40.8243075",
+    "Longitude": "14.39185783",
+    "Altitude": "499.573",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:04.000Z",
+    "Distance": "1141.5",
+    "Latitude": "40.8243815",
+    "Longitude": "14.39179967",
+    "Altitude": "499.573",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:05.000Z",
+    "Distance": "1149.5",
+    "Latitude": "40.8244545",
+    "Longitude": "14.39175383",
+    "Altitude": "502.012",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:06.000Z",
+    "Distance": "1157.0",
+    "Latitude": "40.82452733",
+    "Longitude": "14.3917225",
+    "Altitude": "502.012",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:07.000Z",
+    "Distance": "1163.5",
+    "Latitude": "40.82460117",
+    "Longitude": "14.39170617",
+    "Altitude": "504.755",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:08.000Z",
+    "Distance": "1170.699951171875",
+    "Latitude": "40.82467517",
+    "Longitude": "14.39171533",
+    "Altitude": "504.755",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:09.000Z",
+    "Distance": "1179.0",
+    "Latitude": "40.82475183",
+    "Longitude": "14.39175533",
+    "Altitude": "507.651",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:10.000Z",
+    "Distance": "1188.5",
+    "Latitude": "40.824827",
+    "Longitude": "14.39182",
+    "Altitude": "507.651",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:11.000Z",
+    "Distance": "1198.199951171875",
+    "Latitude": "40.82489667",
+    "Longitude": "14.39190167",
+    "Altitude": "510.546",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:12.000Z",
+    "Distance": "1207.699951171875",
+    "Latitude": "40.824961",
+    "Longitude": "14.39198217",
+    "Altitude": "510.546",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:13.000Z",
+    "Distance": "1216.5",
+    "Latitude": "40.82502117",
+    "Longitude": "14.39206433",
+    "Altitude": "513.442",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:14.000Z",
+    "Distance": "1225.0999755859375",
+    "Latitude": "40.82508283",
+    "Longitude": "14.39214783",
+    "Altitude": "513.442",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:15.000Z",
+    "Distance": "1234.5",
+    "Latitude": "40.825142",
+    "Longitude": "14.39223383",
+    "Altitude": "516.033",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:16.000Z",
+    "Distance": "1244.800048828125",
+    "Latitude": "40.82520083",
+    "Longitude": "14.39232683",
+    "Altitude": "516.033",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:17.000Z",
+    "Distance": "1256.0999755859375",
+    "Latitude": "40.82526117",
+    "Longitude": "14.39241767",
+    "Altitude": "518.471",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:18.000Z",
+    "Distance": "1267.5",
+    "Latitude": "40.82532717",
+    "Longitude": "14.39250517",
+    "Altitude": "518.471",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:19.000Z",
+    "Distance": "1278.4000244140625",
+    "Latitude": "40.82539917",
+    "Longitude": "14.39258017",
+    "Altitude": "520.757",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:20.000Z",
+    "Distance": "1288.5999755859375",
+    "Latitude": "40.82547433",
+    "Longitude": "14.39264333",
+    "Altitude": "520.757",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:21.000Z",
+    "Distance": "1298.4000244140625",
+    "Latitude": "40.82555033",
+    "Longitude": "14.3926905",
+    "Altitude": "522.738",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:22.000Z",
+    "Distance": "1308.0999755859375",
+    "Latitude": "40.825617",
+    "Longitude": "14.39273483",
+    "Altitude": "522.738",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:23.000Z",
+    "Distance": "1317.199951171875",
+    "Latitude": "40.82566917",
+    "Longitude": "14.39277467",
+    "Altitude": "524.72",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:24.000Z",
+    "Distance": "1324.800048828125",
+    "Latitude": "40.82570683",
+    "Longitude": "14.3928215",
+    "Altitude": "524.72",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:25.000Z",
+    "Distance": "1331.199951171875",
+    "Latitude": "40.8257315",
+    "Longitude": "14.39286917",
+    "Altitude": "526.396",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:26.000Z",
+    "Distance": "1336.0999755859375",
+    "Latitude": "40.825746",
+    "Longitude": "14.39292283",
+    "Altitude": "526.396",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:27.000Z",
+    "Distance": "1340.199951171875",
+    "Latitude": "40.82574483",
+    "Longitude": "14.39296767",
+    "Altitude": "527.615",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:28.000Z",
+    "Distance": "1342.800048828125",
+    "Latitude": "40.82572483",
+    "Longitude": "14.39301867",
+    "Altitude": "527.615",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:29.000Z",
+    "Distance": "1344.800048828125",
+    "Latitude": "40.82569083",
+    "Longitude": "14.39308117",
+    "Altitude": "528.377",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:30.000Z",
+    "Distance": "1347.4000244140625",
+    "Latitude": "40.8256535",
+    "Longitude": "14.393161",
+    "Altitude": "528.377",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:31.000Z",
+    "Distance": "1351.5999755859375",
+    "Latitude": "40.825627",
+    "Longitude": "14.393242",
+    "Altitude": "528.834",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:32.000Z",
+    "Distance": "1356.199951171875",
+    "Latitude": "40.82560867",
+    "Longitude": "14.39331617",
+    "Altitude": "528.834",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:33.000Z",
+    "Distance": "1361.4000244140625",
+    "Latitude": "40.82558283",
+    "Longitude": "14.39339217",
+    "Altitude": "529.292",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:34.000Z",
+    "Distance": "1368.199951171875",
+    "Latitude": "40.82554667",
+    "Longitude": "14.3934765",
+    "Altitude": "529.292",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:35.000Z",
+    "Distance": "1377.300048828125",
+    "Latitude": "40.82550433",
+    "Longitude": "14.393567",
+    "Altitude": "529.444",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:36.000Z",
+    "Distance": "1387.300048828125",
+    "Latitude": "40.82547017",
+    "Longitude": "14.393655",
+    "Altitude": "529.444",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:37.000Z",
+    "Distance": "1397.300048828125",
+    "Latitude": "40.825449",
+    "Longitude": "14.39372833",
+    "Altitude": "529.444",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:38.000Z",
+    "Distance": "1405.800048828125",
+    "Latitude": "40.82544",
+    "Longitude": "14.39379633",
+    "Altitude": "529.444",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:39.000Z",
+    "Distance": "1412.800048828125",
+    "Latitude": "40.82543617",
+    "Longitude": "14.393856",
+    "Altitude": "529.444",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:40.000Z",
+    "Distance": "1418.4000244140625",
+    "Latitude": "40.8254365",
+    "Longitude": "14.39391433",
+    "Altitude": "529.444",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:41.000Z",
+    "Distance": "1423.800048828125",
+    "Latitude": "40.82543633",
+    "Longitude": "14.3939605",
+    "Altitude": "529.596",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:42.000Z",
+    "Distance": "1428.5999755859375",
+    "Latitude": "40.82544083",
+    "Longitude": "14.394004",
+    "Altitude": "529.596",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:43.000Z",
+    "Distance": "1432.300048828125",
+    "Latitude": "40.82545",
+    "Longitude": "14.39404667",
+    "Altitude": "530.054",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:44.000Z",
+    "Distance": "1434.699951171875",
+    "Latitude": "40.82549117",
+    "Longitude": "14.39405517",
+    "Altitude": "530.054",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:45.000Z",
+    "Distance": "1435.300048828125",
+    "Latitude": "40.82555817",
+    "Longitude": "14.39405483",
+    "Altitude": "531.273",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:46.000Z",
+    "Distance": "1438.0999755859375",
+    "Latitude": "40.82564067",
+    "Longitude": "14.3940415",
+    "Altitude": "531.273",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:47.000Z",
+    "Distance": "1444.0999755859375",
+    "Latitude": "40.825723",
+    "Longitude": "14.39405533",
+    "Altitude": "532.949",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:48.000Z",
+    "Distance": "1452.0999755859375",
+    "Latitude": "40.82581767",
+    "Longitude": "14.3940875",
+    "Altitude": "532.949",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:49.000Z",
+    "Distance": "1459.9000244140625",
+    "Latitude": "40.82592517",
+    "Longitude": "14.394132",
+    "Altitude": "534.626",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:50.000Z",
+    "Distance": "1470.199951171875",
+    "Latitude": "40.826032",
+    "Longitude": "14.39417983",
+    "Altitude": "534.626",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:51.000Z",
+    "Distance": "1484.0999755859375",
+    "Latitude": "40.82612633",
+    "Longitude": "14.3942115",
+    "Altitude": "536.15",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:52.000Z",
+    "Distance": "1498.9000244140625",
+    "Latitude": "40.82621217",
+    "Longitude": "14.39423583",
+    "Altitude": "536.15",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:53.000Z",
+    "Distance": "1513.5999755859375",
+    "Latitude": "40.82629067",
+    "Longitude": "14.39426083",
+    "Altitude": "537.674",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:54.000Z",
+    "Distance": "1526.199951171875",
+    "Latitude": "40.82635733",
+    "Longitude": "14.39428967",
+    "Altitude": "537.674",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:55.000Z",
+    "Distance": "1536.699951171875",
+    "Latitude": "40.8264085",
+    "Longitude": "14.39432533",
+    "Altitude": "539.35",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:56.000Z",
+    "Distance": "1545.0999755859375",
+    "Latitude": "40.82644117",
+    "Longitude": "14.39436833",
+    "Altitude": "539.35",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:57.000Z",
+    "Distance": "1551.5999755859375",
+    "Latitude": "40.82645767",
+    "Longitude": "14.394415",
+    "Altitude": "541.027",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:58.000Z",
+    "Distance": "1555.5999755859375",
+    "Latitude": "40.8264675",
+    "Longitude": "14.394456",
+    "Altitude": "541.027",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:47:59.000Z",
+    "Distance": "1557.5999755859375",
+    "Latitude": "40.826478",
+    "Longitude": "14.39448983",
+    "Altitude": "541.789",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:00.000Z",
+    "Distance": "1558.4000244140625",
+    "Latitude": "40.82648067",
+    "Longitude": "14.394539",
+    "Altitude": "541.789",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:01.000Z",
+    "Distance": "1559.5",
+    "Latitude": "40.82646933",
+    "Longitude": "14.39460383",
+    "Altitude": "542.093",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:02.000Z",
+    "Distance": "1561.0999755859375",
+    "Latitude": "40.82645183",
+    "Longitude": "14.39468583",
+    "Altitude": "542.093",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:03.000Z",
+    "Distance": "1564.5",
+    "Latitude": "40.8264415",
+    "Longitude": "14.39476533",
+    "Altitude": "542.246",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:04.000Z",
+    "Distance": "1569.300048828125",
+    "Latitude": "40.826445",
+    "Longitude": "14.394851",
+    "Altitude": "542.246",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:05.000Z",
+    "Distance": "1575.300048828125",
+    "Latitude": "40.82645533",
+    "Longitude": "14.394946",
+    "Altitude": "542.551",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:06.000Z",
+    "Distance": "1582.699951171875",
+    "Latitude": "40.82647367",
+    "Longitude": "14.39505033",
+    "Altitude": "542.551",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:07.000Z",
+    "Distance": "1591.800048828125",
+    "Latitude": "40.82649867",
+    "Longitude": "14.39517017",
+    "Altitude": "542.703",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:08.000Z",
+    "Distance": "1602.9000244140625",
+    "Latitude": "40.826529",
+    "Longitude": "14.39528067",
+    "Altitude": "542.703",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:09.000Z",
+    "Distance": "1614.5999755859375",
+    "Latitude": "40.82656933",
+    "Longitude": "14.395383",
+    "Altitude": "543.008",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:10.000Z",
+    "Distance": "1625.800048828125",
+    "Latitude": "40.8266325",
+    "Longitude": "14.3954495",
+    "Altitude": "543.008",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:11.000Z",
+    "Distance": "1635.699951171875",
+    "Latitude": "40.82672433",
+    "Longitude": "14.395482",
+    "Altitude": "543.465",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:12.000Z",
+    "Distance": "1645.300048828125",
+    "Latitude": "40.82682267",
+    "Longitude": "14.39548583",
+    "Altitude": "543.465",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:13.000Z",
+    "Distance": "1655.800048828125",
+    "Latitude": "40.8269045",
+    "Longitude": "14.39547633",
+    "Altitude": "544.227",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:14.000Z",
+    "Distance": "1666.0",
+    "Latitude": "40.826966",
+    "Longitude": "14.3954615",
+    "Altitude": "544.227",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:15.000Z",
+    "Distance": "1673.5999755859375",
+    "Latitude": "40.82701817",
+    "Longitude": "14.39544133",
+    "Altitude": "545.141",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:16.000Z",
+    "Distance": "1678.9000244140625",
+    "Latitude": "40.82705583",
+    "Longitude": "14.39540417",
+    "Altitude": "545.141",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:17.000Z",
+    "Distance": "1682.699951171875",
+    "Latitude": "40.82707167",
+    "Longitude": "14.39534283",
+    "Altitude": "546.056",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:18.000Z",
+    "Distance": "1686.9000244140625",
+    "Latitude": "40.82707517",
+    "Longitude": "14.3952705",
+    "Altitude": "546.056",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:19.000Z",
+    "Distance": "1691.9000244140625",
+    "Latitude": "40.82707533",
+    "Longitude": "14.39519483",
+    "Altitude": "546.97",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:20.000Z",
+    "Distance": "1697.199951171875",
+    "Latitude": "40.827084",
+    "Longitude": "14.39513583",
+    "Altitude": "546.97",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:21.000Z",
+    "Distance": "1700.199951171875",
+    "Latitude": "40.8271015",
+    "Longitude": "14.3950755",
+    "Altitude": "547.885",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:22.000Z",
+    "Distance": "1701.699951171875",
+    "Latitude": "40.82713567",
+    "Longitude": "14.39502117",
+    "Altitude": "547.885",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:23.000Z",
+    "Distance": "1704.4000244140625",
+    "Latitude": "40.82717667",
+    "Longitude": "14.39497083",
+    "Altitude": "548.951",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:24.000Z",
+    "Distance": "1709.9000244140625",
+    "Latitude": "40.82722767",
+    "Longitude": "14.3949155",
+    "Altitude": "548.951",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:25.000Z",
+    "Distance": "1717.5",
+    "Latitude": "40.82729017",
+    "Longitude": "14.39484567",
+    "Altitude": "549.713",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:26.000Z",
+    "Distance": "1726.5999755859375",
+    "Latitude": "40.82737333",
+    "Longitude": "14.39476267",
+    "Altitude": "549.713",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:27.000Z",
+    "Distance": "1736.5999755859375",
+    "Latitude": "40.82746533",
+    "Longitude": "14.39468233",
+    "Altitude": "550.628",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:28.000Z",
+    "Distance": "1747.5999755859375",
+    "Latitude": "40.82756233",
+    "Longitude": "14.394623",
+    "Altitude": "550.628",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:29.000Z",
+    "Distance": "1759.5",
+    "Latitude": "40.82765967",
+    "Longitude": "14.3945875",
+    "Altitude": "551.237",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:30.000Z",
+    "Distance": "1772.5",
+    "Latitude": "40.82775767",
+    "Longitude": "14.394579",
+    "Altitude": "551.237",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:31.000Z",
+    "Distance": "1785.4000244140625",
+    "Latitude": "40.8278245",
+    "Longitude": "14.394614",
+    "Altitude": "552.0",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:32.000Z",
+    "Distance": "1795.9000244140625",
+    "Latitude": "40.82787367",
+    "Longitude": "14.394675",
+    "Altitude": "552.0",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:33.000Z",
+    "Distance": "1805.199951171875",
+    "Latitude": "40.82791083",
+    "Longitude": "14.39475633",
+    "Altitude": "552.761",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:34.000Z",
+    "Distance": "1813.699951171875",
+    "Latitude": "40.82796433",
+    "Longitude": "14.39483633",
+    "Altitude": "552.761",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:35.000Z",
+    "Distance": "1822.5999755859375",
+    "Latitude": "40.8280155",
+    "Longitude": "14.394928",
+    "Altitude": "553.523",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:36.000Z",
+    "Distance": "1829.300048828125",
+    "Latitude": "40.8280645",
+    "Longitude": "14.39502417",
+    "Altitude": "553.523",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:37.000Z",
+    "Distance": "1835.5",
+    "Latitude": "40.82811367",
+    "Longitude": "14.39510933",
+    "Altitude": "554.286",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:38.000Z",
+    "Distance": "1842.0",
+    "Latitude": "40.82816483",
+    "Longitude": "14.39517783",
+    "Altitude": "554.286",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:39.000Z",
+    "Distance": "1849.9000244140625",
+    "Latitude": "40.82821283",
+    "Longitude": "14.395219",
+    "Altitude": "555.048",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:40.000Z",
+    "Distance": "1857.0999755859375",
+    "Latitude": "40.828261",
+    "Longitude": "14.39522583",
+    "Altitude": "555.048",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:41.000Z",
+    "Distance": "1863.5",
+    "Latitude": "40.82831383",
+    "Longitude": "14.39517367",
+    "Altitude": "555.962",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:42.000Z",
+    "Distance": "1868.800048828125",
+    "Latitude": "40.82839183",
+    "Longitude": "14.39506733",
+    "Altitude": "555.962",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:43.000Z",
+    "Distance": "1877.199951171875",
+    "Latitude": "40.82848083",
+    "Longitude": "14.39495167",
+    "Altitude": "556.724",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:44.000Z",
+    "Distance": "1887.800048828125",
+    "Latitude": "40.82858133",
+    "Longitude": "14.394869",
+    "Altitude": "556.724",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:45.000Z",
+    "Distance": "1897.699951171875",
+    "Latitude": "40.82867967",
+    "Longitude": "14.394832",
+    "Altitude": "557.638",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:46.000Z",
+    "Distance": "1905.0999755859375",
+    "Latitude": "40.82878017",
+    "Longitude": "14.39481217",
+    "Altitude": "557.638",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:47.000Z",
+    "Distance": "1914.800048828125",
+    "Latitude": "40.828879",
+    "Longitude": "14.394804",
+    "Altitude": "558.4",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:48.000Z",
+    "Distance": "1928.800048828125",
+    "Latitude": "40.82896817",
+    "Longitude": "14.394812",
+    "Altitude": "558.4",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:49.000Z",
+    "Distance": "1943.5999755859375",
+    "Latitude": "40.8290445",
+    "Longitude": "14.394852",
+    "Altitude": "559.162",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:50.000Z",
+    "Distance": "1956.0",
+    "Latitude": "40.82909983",
+    "Longitude": "14.39491917",
+    "Altitude": "559.162",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:51.000Z",
+    "Distance": "1965.199951171875",
+    "Latitude": "40.82912367",
+    "Longitude": "14.39500967",
+    "Altitude": "559.924",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:52.000Z",
+    "Distance": "1970.699951171875",
+    "Latitude": "40.82910717",
+    "Longitude": "14.39511067",
+    "Altitude": "559.924",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:53.000Z",
+    "Distance": "1975.199951171875",
+    "Latitude": "40.8290665",
+    "Longitude": "14.39521433",
+    "Altitude": "560.839",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:54.000Z",
+    "Distance": "1980.4000244140625",
+    "Latitude": "40.82901717",
+    "Longitude": "14.39532067",
+    "Altitude": "560.839",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:55.000Z",
+    "Distance": "1987.0",
+    "Latitude": "40.82897367",
+    "Longitude": "14.39543533",
+    "Altitude": "561.601",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:56.000Z",
+    "Distance": "1993.800048828125",
+    "Latitude": "40.8289285",
+    "Longitude": "14.395567",
+    "Altitude": "561.601",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:57.000Z",
+    "Distance": "2001.4000244140625",
+    "Latitude": "40.82888267",
+    "Longitude": "14.395711",
+    "Altitude": "562.668",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:58.000Z",
+    "Distance": "2012.5999755859375",
+    "Latitude": "40.82884017",
+    "Longitude": "14.3958595",
+    "Altitude": "562.668",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:48:59.000Z",
+    "Distance": "2027.0999755859375",
+    "Latitude": "40.82880333",
+    "Longitude": "14.39601133",
+    "Altitude": "563.582",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:00.000Z",
+    "Distance": "2043.199951171875",
+    "Latitude": "40.82877133",
+    "Longitude": "14.39616417",
+    "Altitude": "563.582",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:01.000Z",
+    "Distance": "2059.300048828125",
+    "Latitude": "40.82873733",
+    "Longitude": "14.39632",
+    "Altitude": "564.496",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:02.000Z",
+    "Distance": "2074.800048828125",
+    "Latitude": "40.82870733",
+    "Longitude": "14.39647583",
+    "Altitude": "564.496",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:03.000Z",
+    "Distance": "2089.800048828125",
+    "Latitude": "40.8286895",
+    "Longitude": "14.39663067",
+    "Altitude": "565.411",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:04.000Z",
+    "Distance": "2104.39990234375",
+    "Latitude": "40.8286965",
+    "Longitude": "14.3967755",
+    "Altitude": "565.411",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:05.000Z",
+    "Distance": "2118.10009765625",
+    "Latitude": "40.82874117",
+    "Longitude": "14.39691383",
+    "Altitude": "566.325",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:06.000Z",
+    "Distance": "2130.699951171875",
+    "Latitude": "40.8288135",
+    "Longitude": "14.39704733",
+    "Altitude": "566.325",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:07.000Z",
+    "Distance": "2143.199951171875",
+    "Latitude": "40.8289085",
+    "Longitude": "14.39717633",
+    "Altitude": "567.087",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:08.000Z",
+    "Distance": "2156.800048828125",
+    "Latitude": "40.82900783",
+    "Longitude": "14.39729883",
+    "Altitude": "567.087",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:09.000Z",
+    "Distance": "2170.60009765625",
+    "Latitude": "40.829107",
+    "Longitude": "14.39741983",
+    "Altitude": "567.697",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:10.000Z",
+    "Distance": "2184.10009765625",
+    "Latitude": "40.829203",
+    "Longitude": "14.3975445",
+    "Altitude": "567.697",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:11.000Z",
+    "Distance": "2197.699951171875",
+    "Latitude": "40.82929567",
+    "Longitude": "14.397675",
+    "Altitude": "568.459",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:12.000Z",
+    "Distance": "2212.60009765625",
+    "Latitude": "40.82938933",
+    "Longitude": "14.39780467",
+    "Altitude": "568.459",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:13.000Z",
+    "Distance": "2229.10009765625",
+    "Latitude": "40.8294835",
+    "Longitude": "14.39793683",
+    "Altitude": "569.221",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:14.000Z",
+    "Distance": "2246.5",
+    "Latitude": "40.829574",
+    "Longitude": "14.39806983",
+    "Altitude": "569.221",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:15.000Z",
+    "Distance": "2263.300048828125",
+    "Latitude": "40.82965783",
+    "Longitude": "14.39820517",
+    "Altitude": "569.831",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:16.000Z",
+    "Distance": "2279.0",
+    "Latitude": "40.82973117",
+    "Longitude": "14.39834333",
+    "Altitude": "569.831",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:17.000Z",
+    "Distance": "2293.5",
+    "Latitude": "40.82979283",
+    "Longitude": "14.39848617",
+    "Altitude": "570.745",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:18.000Z",
+    "Distance": "2307.699951171875",
+    "Latitude": "40.829845",
+    "Longitude": "14.3986345",
+    "Altitude": "570.745",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:19.000Z",
+    "Distance": "2321.60009765625",
+    "Latitude": "40.82989433",
+    "Longitude": "14.39878983",
+    "Altitude": "571.507",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:20.000Z",
+    "Distance": "2335.699951171875",
+    "Latitude": "40.829943",
+    "Longitude": "14.39895183",
+    "Altitude": "571.507",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:21.000Z",
+    "Distance": "2350.0",
+    "Latitude": "40.82999217",
+    "Longitude": "14.39911883",
+    "Altitude": "572.269",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:22.000Z",
+    "Distance": "2364.39990234375",
+    "Latitude": "40.8300405",
+    "Longitude": "14.39928317",
+    "Altitude": "572.269",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:23.000Z",
+    "Distance": "2378.60009765625",
+    "Latitude": "40.83009133",
+    "Longitude": "14.3994435",
+    "Altitude": "573.031",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:24.000Z",
+    "Distance": "2393.0",
+    "Latitude": "40.830144",
+    "Longitude": "14.399601",
+    "Altitude": "573.031",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:25.000Z",
+    "Distance": "2407.60009765625",
+    "Latitude": "40.83019567",
+    "Longitude": "14.39976017",
+    "Altitude": "573.793",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:26.000Z",
+    "Distance": "2422.60009765625",
+    "Latitude": "40.83024467",
+    "Longitude": "14.399926",
+    "Altitude": "573.793",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:27.000Z",
+    "Distance": "2438.10009765625",
+    "Latitude": "40.83029183",
+    "Longitude": "14.4000955",
+    "Altitude": "574.707",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:28.000Z",
+    "Distance": "2453.800048828125",
+    "Latitude": "40.8303385",
+    "Longitude": "14.40026567",
+    "Altitude": "574.707",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:29.000Z",
+    "Distance": "2469.300048828125",
+    "Latitude": "40.8303855",
+    "Longitude": "14.4004285",
+    "Altitude": "575.622",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:30.000Z",
+    "Distance": "2484.300048828125",
+    "Latitude": "40.83042933",
+    "Longitude": "14.40058683",
+    "Altitude": "575.622",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:31.000Z",
+    "Distance": "2498.800048828125",
+    "Latitude": "40.83046467",
+    "Longitude": "14.40074267",
+    "Altitude": "576.536",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:32.000Z",
+    "Distance": "2513.0",
+    "Latitude": "40.83049033",
+    "Longitude": "14.4008945",
+    "Altitude": "576.536",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:33.000Z",
+    "Distance": "2526.699951171875",
+    "Latitude": "40.83050183",
+    "Longitude": "14.40104233",
+    "Altitude": "577.603",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:34.000Z",
+    "Distance": "2539.699951171875",
+    "Latitude": "40.83049483",
+    "Longitude": "14.401182",
+    "Altitude": "577.603",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:35.000Z",
+    "Distance": "2551.699951171875",
+    "Latitude": "40.83047117",
+    "Longitude": "14.40130667",
+    "Altitude": "578.67",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:36.000Z",
+    "Distance": "2562.300048828125",
+    "Latitude": "40.8304295",
+    "Longitude": "14.40141317",
+    "Altitude": "578.67",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:37.000Z",
+    "Distance": "2571.5",
+    "Latitude": "40.830374",
+    "Longitude": "14.40150683",
+    "Altitude": "579.737",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:38.000Z",
+    "Distance": "2579.89990234375",
+    "Latitude": "40.83028867",
+    "Longitude": "14.40158467",
+    "Altitude": "579.737",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:39.000Z",
+    "Distance": "2588.60009765625",
+    "Latitude": "40.83012833",
+    "Longitude": "14.40164433",
+    "Altitude": "580.803",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:40.000Z",
+    "Distance": "2600.800048828125",
+    "Latitude": "40.82994817",
+    "Longitude": "14.40168933",
+    "Altitude": "580.803",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:41.000Z",
+    "Distance": "2615.89990234375",
+    "Latitude": "40.8297635",
+    "Longitude": "14.4017375",
+    "Altitude": "581.87",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:42.000Z",
+    "Distance": "2633.5",
+    "Latitude": "40.82963633",
+    "Longitude": "14.4017935",
+    "Altitude": "581.87",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:43.000Z",
+    "Distance": "2649.10009765625",
+    "Latitude": "40.82951883",
+    "Longitude": "14.401856",
+    "Altitude": "582.785",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:44.000Z",
+    "Distance": "2664.699951171875",
+    "Latitude": "40.82940883",
+    "Longitude": "14.4019135",
+    "Altitude": "582.785",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:45.000Z",
+    "Distance": "2681.89990234375",
+    "Latitude": "40.82930133",
+    "Longitude": "14.40196667",
+    "Altitude": "583.852",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:46.000Z",
+    "Distance": "2700.0",
+    "Latitude": "40.829189",
+    "Longitude": "14.40200667",
+    "Altitude": "583.852",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:47.000Z",
+    "Distance": "2717.60009765625",
+    "Latitude": "40.82906833",
+    "Longitude": "14.40202917",
+    "Altitude": "584.766",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:48.000Z",
+    "Distance": "2733.699951171875",
+    "Latitude": "40.82893467",
+    "Longitude": "14.4020415",
+    "Altitude": "584.766",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:49.000Z",
+    "Distance": "2746.10009765625",
+    "Latitude": "40.82879783",
+    "Longitude": "14.40204783",
+    "Altitude": "585.68",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:50.000Z",
+    "Distance": "2757.699951171875",
+    "Latitude": "40.82866533",
+    "Longitude": "14.40205617",
+    "Altitude": "585.68",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:51.000Z",
+    "Distance": "2768.800048828125",
+    "Latitude": "40.82853667",
+    "Longitude": "14.40205533",
+    "Altitude": "586.747",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:52.000Z",
+    "Distance": "2782.5",
+    "Latitude": "40.82841617",
+    "Longitude": "14.40203733",
+    "Altitude": "586.747",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:53.000Z",
+    "Distance": "2796.300048828125",
+    "Latitude": "40.828292",
+    "Longitude": "14.40200733",
+    "Altitude": "587.966",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:54.000Z",
+    "Distance": "2810.89990234375",
+    "Latitude": "40.82816983",
+    "Longitude": "14.40196467",
+    "Altitude": "587.966",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:55.000Z",
+    "Distance": "2826.0",
+    "Latitude": "40.82804233",
+    "Longitude": "14.40191283",
+    "Altitude": "589.338",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:56.000Z",
+    "Distance": "2841.39990234375",
+    "Latitude": "40.82792383",
+    "Longitude": "14.4018645",
+    "Altitude": "589.338",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:57.000Z",
+    "Distance": "2855.800048828125",
+    "Latitude": "40.82780983",
+    "Longitude": "14.401821",
+    "Altitude": "590.862",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:58.000Z",
+    "Distance": "2868.89990234375",
+    "Latitude": "40.82770117",
+    "Longitude": "14.401808",
+    "Altitude": "590.862",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:49:59.000Z",
+    "Distance": "2880.89990234375",
+    "Latitude": "40.82759783",
+    "Longitude": "14.40181267",
+    "Altitude": "592.386",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:00.000Z",
+    "Distance": "2892.5",
+    "Latitude": "40.827505",
+    "Longitude": "14.40185083",
+    "Altitude": "592.386",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:01.000Z",
+    "Distance": "2903.300048828125",
+    "Latitude": "40.827417",
+    "Longitude": "14.40189367",
+    "Altitude": "593.91",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:02.000Z",
+    "Distance": "2914.0",
+    "Latitude": "40.8273445",
+    "Longitude": "14.4019515",
+    "Altitude": "593.91",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:03.000Z",
+    "Distance": "2922.699951171875",
+    "Latitude": "40.82730967",
+    "Longitude": "14.40202333",
+    "Altitude": "595.282",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:04.000Z",
+    "Distance": "2928.699951171875",
+    "Latitude": "40.8273095",
+    "Longitude": "14.40211867",
+    "Altitude": "595.282",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:05.000Z",
+    "Distance": "2932.300048828125",
+    "Latitude": "40.827323",
+    "Longitude": "14.4022045",
+    "Altitude": "596.806",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:06.000Z",
+    "Distance": "2936.60009765625",
+    "Latitude": "40.82731883",
+    "Longitude": "14.402275",
+    "Altitude": "596.806",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:07.000Z",
+    "Distance": "2941.39990234375",
+    "Latitude": "40.827309",
+    "Longitude": "14.40232617",
+    "Altitude": "598.025",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:08.000Z",
+    "Distance": "2944.10009765625",
+    "Latitude": "40.82729283",
+    "Longitude": "14.4023855",
+    "Altitude": "598.025",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:09.000Z",
+    "Distance": "2945.800048828125",
+    "Latitude": "40.82728217",
+    "Longitude": "14.40245267",
+    "Altitude": "599.244",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:10.000Z",
+    "Distance": "2948.800048828125",
+    "Latitude": "40.827272",
+    "Longitude": "14.40252517",
+    "Altitude": "599.244",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:11.000Z",
+    "Distance": "2953.89990234375",
+    "Latitude": "40.827282",
+    "Longitude": "14.40259267",
+    "Altitude": "600.463",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:12.000Z",
+    "Distance": "2959.0",
+    "Latitude": "40.82735633",
+    "Longitude": "14.40263817",
+    "Altitude": "600.463",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:13.000Z",
+    "Distance": "2963.800048828125",
+    "Latitude": "40.8275145",
+    "Longitude": "14.40268017",
+    "Altitude": "601.682",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:14.000Z",
+    "Distance": "2973.699951171875",
+    "Latitude": "40.827691",
+    "Longitude": "14.40272567",
+    "Altitude": "601.682",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:15.000Z",
+    "Distance": "2990.0",
+    "Latitude": "40.82783183",
+    "Longitude": "14.402813",
+    "Altitude": "603.054",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:16.000Z",
+    "Distance": "3006.800048828125",
+    "Latitude": "40.82791383",
+    "Longitude": "14.4029215",
+    "Altitude": "603.054",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:17.000Z",
+    "Distance": "3019.39990234375",
+    "Latitude": "40.827985",
+    "Longitude": "14.40303783",
+    "Altitude": "604.731",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:18.000Z",
+    "Distance": "3033.199951171875",
+    "Latitude": "40.82804983",
+    "Longitude": "14.40314183",
+    "Altitude": "604.731",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:19.000Z",
+    "Distance": "3050.89990234375",
+    "Latitude": "40.82811217",
+    "Longitude": "14.40324083",
+    "Altitude": "606.255",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:20.000Z",
+    "Distance": "3069.39990234375",
+    "Latitude": "40.8281735",
+    "Longitude": "14.40334333",
+    "Altitude": "606.255",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:21.000Z",
+    "Distance": "3085.89990234375",
+    "Latitude": "40.82823383",
+    "Longitude": "14.4034465",
+    "Altitude": "607.931",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:22.000Z",
+    "Distance": "3098.60009765625",
+    "Latitude": "40.82829367",
+    "Longitude": "14.40354783",
+    "Altitude": "607.931",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:23.000Z",
+    "Distance": "3106.89990234375",
+    "Latitude": "40.828362",
+    "Longitude": "14.403644",
+    "Altitude": "609.455",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:24.000Z",
+    "Distance": "3114.89990234375",
+    "Latitude": "40.82845533",
+    "Longitude": "14.40372417",
+    "Altitude": "609.455",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:25.000Z",
+    "Distance": "3124.199951171875",
+    "Latitude": "40.82856383",
+    "Longitude": "14.403793",
+    "Altitude": "611.131",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:26.000Z",
+    "Distance": "3135.800048828125",
+    "Latitude": "40.82867533",
+    "Longitude": "14.4038555",
+    "Altitude": "611.131",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:27.000Z",
+    "Distance": "3148.0",
+    "Latitude": "40.82877",
+    "Longitude": "14.4039315",
+    "Altitude": "612.655",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:28.000Z",
+    "Distance": "3160.699951171875",
+    "Latitude": "40.82885583",
+    "Longitude": "14.40402117",
+    "Altitude": "612.655",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:29.000Z",
+    "Distance": "3173.300048828125",
+    "Latitude": "40.82893733",
+    "Longitude": "14.40412317",
+    "Altitude": "614.179",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:30.000Z",
+    "Distance": "3186.10009765625",
+    "Latitude": "40.82901967",
+    "Longitude": "14.40422733",
+    "Altitude": "614.179",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:31.000Z",
+    "Distance": "3199.60009765625",
+    "Latitude": "40.82910217",
+    "Longitude": "14.40433183",
+    "Altitude": "615.551",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:32.000Z",
+    "Distance": "3213.5",
+    "Latitude": "40.8291845",
+    "Longitude": "14.40443667",
+    "Altitude": "615.551",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:33.000Z",
+    "Distance": "3227.199951171875",
+    "Latitude": "40.82926217",
+    "Longitude": "14.40454217",
+    "Altitude": "617.075",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:34.000Z",
+    "Distance": "3239.699951171875",
+    "Latitude": "40.829337",
+    "Longitude": "14.40464633",
+    "Altitude": "617.075",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:35.000Z",
+    "Distance": "3251.60009765625",
+    "Latitude": "40.82941233",
+    "Longitude": "14.40475333",
+    "Altitude": "618.599",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:36.000Z",
+    "Distance": "3263.800048828125",
+    "Latitude": "40.8294895",
+    "Longitude": "14.40486233",
+    "Altitude": "618.599",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:37.000Z",
+    "Distance": "3276.699951171875",
+    "Latitude": "40.8295645",
+    "Longitude": "14.4049825",
+    "Altitude": "620.276",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:38.000Z",
+    "Distance": "3289.800048828125",
+    "Latitude": "40.8296385",
+    "Longitude": "14.40510467",
+    "Altitude": "620.276",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:39.000Z",
+    "Distance": "3302.89990234375",
+    "Latitude": "40.82971117",
+    "Longitude": "14.40523017",
+    "Altitude": "621.8",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:40.000Z",
+    "Distance": "3316.10009765625",
+    "Latitude": "40.82978367",
+    "Longitude": "14.40535367",
+    "Altitude": "621.8",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:41.000Z",
+    "Distance": "3329.300048828125",
+    "Latitude": "40.82985717",
+    "Longitude": "14.40547217",
+    "Altitude": "623.324",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:42.000Z",
+    "Distance": "3342.39990234375",
+    "Latitude": "40.82993667",
+    "Longitude": "14.405579",
+    "Altitude": "623.324",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:43.000Z",
+    "Distance": "3355.60009765625",
+    "Latitude": "40.83002317",
+    "Longitude": "14.40567367",
+    "Altitude": "624.848",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:44.000Z",
+    "Distance": "3368.699951171875",
+    "Latitude": "40.83012617",
+    "Longitude": "14.40573567",
+    "Altitude": "624.848",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:45.000Z",
+    "Distance": "3381.300048828125",
+    "Latitude": "40.83020867",
+    "Longitude": "14.40577317",
+    "Altitude": "626.372",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:46.000Z",
+    "Distance": "3392.0",
+    "Latitude": "40.83027717",
+    "Longitude": "14.4058015",
+    "Altitude": "626.372",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:47.000Z",
+    "Distance": "3400.800048828125",
+    "Latitude": "40.8303135",
+    "Longitude": "14.4058445",
+    "Altitude": "628.048",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:48.000Z",
+    "Distance": "3407.300048828125",
+    "Latitude": "40.83034483",
+    "Longitude": "14.40589333",
+    "Altitude": "628.048",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:49.000Z",
+    "Distance": "3412.0",
+    "Latitude": "40.83035517",
+    "Longitude": "14.4059235",
+    "Altitude": "629.724",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:50.000Z",
+    "Distance": "3414.300048828125",
+    "Latitude": "40.830349",
+    "Longitude": "14.40595017",
+    "Altitude": "629.724",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:51.000Z",
+    "Distance": "3415.199951171875",
+    "Latitude": "40.83032367",
+    "Longitude": "14.40596583",
+    "Altitude": "631.401",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:52.000Z",
+    "Distance": "3415.199951171875",
+    "Latitude": "40.8302805",
+    "Longitude": "14.40596167",
+    "Altitude": "631.401",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:53.000Z",
+    "Distance": "3415.199951171875",
+    "Latitude": "40.83022833",
+    "Longitude": "14.40594767",
+    "Altitude": "633.077",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:54.000Z",
+    "Distance": "3415.199951171875",
+    "Latitude": "40.83017067",
+    "Longitude": "14.405934",
+    "Altitude": "633.077",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:55.000Z",
+    "Distance": "3415.199951171875",
+    "Latitude": "40.8301205",
+    "Longitude": "14.4059335",
+    "Altitude": "634.754",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:56.000Z",
+    "Distance": "3415.199951171875",
+    "Latitude": "40.83006433",
+    "Longitude": "14.40593233",
+    "Altitude": "634.754",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:57.000Z",
+    "Distance": "3416.89990234375",
+    "Latitude": "40.8299895",
+    "Longitude": "14.40591133",
+    "Altitude": "636.43",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:58.000Z",
+    "Distance": "3425.5",
+    "Latitude": "40.82989167",
+    "Longitude": "14.40585067",
+    "Altitude": "636.43",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:50:59.000Z",
+    "Distance": "3438.300048828125",
+    "Latitude": "40.8297885",
+    "Longitude": "14.4057615",
+    "Altitude": "637.954",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:00.000Z",
+    "Distance": "3452.800048828125",
+    "Latitude": "40.82969767",
+    "Longitude": "14.4056695",
+    "Altitude": "637.954",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:01.000Z",
+    "Distance": "3467.0",
+    "Latitude": "40.82961983",
+    "Longitude": "14.40559233",
+    "Altitude": "639.478",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:02.000Z",
+    "Distance": "3480.10009765625",
+    "Latitude": "40.82954083",
+    "Longitude": "14.40551833",
+    "Altitude": "639.478",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:03.000Z",
+    "Distance": "3492.89990234375",
+    "Latitude": "40.8294625",
+    "Longitude": "14.40544983",
+    "Altitude": "641.002",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:04.000Z",
+    "Distance": "3505.5",
+    "Latitude": "40.82938533",
+    "Longitude": "14.40539767",
+    "Altitude": "641.002",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:05.000Z",
+    "Distance": "3518.5",
+    "Latitude": "40.8293105",
+    "Longitude": "14.40536583",
+    "Altitude": "642.526",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:06.000Z",
+    "Distance": "3530.800048828125",
+    "Latitude": "40.82923167",
+    "Longitude": "14.40535367",
+    "Altitude": "642.526",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:07.000Z",
+    "Distance": "3541.300048828125",
+    "Latitude": "40.82914617",
+    "Longitude": "14.40535667",
+    "Altitude": "643.898",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:08.000Z",
+    "Distance": "3550.0",
+    "Latitude": "40.82905417",
+    "Longitude": "14.4053555",
+    "Altitude": "643.898",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:09.000Z",
+    "Distance": "3558.0",
+    "Latitude": "40.82895917",
+    "Longitude": "14.40534017",
+    "Altitude": "645.117",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:10.000Z",
+    "Distance": "3566.60009765625",
+    "Latitude": "40.82886667",
+    "Longitude": "14.40531",
+    "Altitude": "645.117",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:11.000Z",
+    "Distance": "3575.89990234375",
+    "Latitude": "40.82878017",
+    "Longitude": "14.40525583",
+    "Altitude": "646.336",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:12.000Z",
+    "Distance": "3585.39990234375",
+    "Latitude": "40.8287005",
+    "Longitude": "14.40519667",
+    "Altitude": "646.336",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:13.000Z",
+    "Distance": "3595.39990234375",
+    "Latitude": "40.82862933",
+    "Longitude": "14.40513183",
+    "Altitude": "647.555",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:14.000Z",
+    "Distance": "3605.699951171875",
+    "Latitude": "40.82855967",
+    "Longitude": "14.40508267",
+    "Altitude": "647.555",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:15.000Z",
+    "Distance": "3615.800048828125",
+    "Latitude": "40.82849667",
+    "Longitude": "14.405047",
+    "Altitude": "648.775",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:16.000Z",
+    "Distance": "3624.5",
+    "Latitude": "40.82843667",
+    "Longitude": "14.40502333",
+    "Altitude": "648.775",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:17.000Z",
+    "Distance": "3632.199951171875",
+    "Latitude": "40.82838583",
+    "Longitude": "14.40500583",
+    "Altitude": "649.994",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:18.000Z",
+    "Distance": "3638.60009765625",
+    "Latitude": "40.828344",
+    "Longitude": "14.40498283",
+    "Altitude": "649.994",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:19.000Z",
+    "Distance": "3643.800048828125",
+    "Latitude": "40.8283085",
+    "Longitude": "14.40496233",
+    "Altitude": "651.213",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:20.000Z",
+    "Distance": "3647.699951171875",
+    "Latitude": "40.82827683",
+    "Longitude": "14.40496633",
+    "Altitude": "651.213",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:21.000Z",
+    "Distance": "3649.89990234375",
+    "Latitude": "40.828264",
+    "Longitude": "14.4050215",
+    "Altitude": "652.585",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:22.000Z",
+    "Distance": "3649.89990234375",
+    "Latitude": "40.82829483",
+    "Longitude": "14.40511433",
+    "Altitude": "652.585",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:23.000Z",
+    "Distance": "3650.300048828125",
+    "Latitude": "40.828345",
+    "Longitude": "14.40520483",
+    "Altitude": "653.652",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:24.000Z",
+    "Distance": "3654.89990234375",
+    "Latitude": "40.828387",
+    "Longitude": "14.40525783",
+    "Altitude": "653.652",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:25.000Z",
+    "Distance": "3659.10009765625",
+    "Latitude": "40.82840083",
+    "Longitude": "14.40528533",
+    "Altitude": "654.566",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:26.000Z",
+    "Distance": "3659.39990234375",
+    "Latitude": "40.82840583",
+    "Longitude": "14.40530917",
+    "Altitude": "654.566",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:27.000Z",
+    "Distance": "3659.39990234375",
+    "Latitude": "40.82842133",
+    "Longitude": "14.40534917",
+    "Altitude": "655.176",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:28.000Z",
+    "Distance": "3661.89990234375",
+    "Latitude": "40.82844817",
+    "Longitude": "14.4054135",
+    "Altitude": "655.176",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:29.000Z",
+    "Distance": "3670.800048828125",
+    "Latitude": "40.82849633",
+    "Longitude": "14.40546817",
+    "Altitude": "655.938",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:30.000Z",
+    "Distance": "3680.0",
+    "Latitude": "40.82854967",
+    "Longitude": "14.40552283",
+    "Altitude": "655.938",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:31.000Z",
+    "Distance": "3687.39990234375",
+    "Latitude": "40.82859717",
+    "Longitude": "14.40556883",
+    "Altitude": "656.7",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:32.000Z",
+    "Distance": "3692.199951171875",
+    "Latitude": "40.82865617",
+    "Longitude": "14.40565517",
+    "Altitude": "656.7",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:33.000Z",
+    "Distance": "3698.89990234375",
+    "Latitude": "40.82872133",
+    "Longitude": "14.4057885",
+    "Altitude": "657.462",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:34.000Z",
+    "Distance": "3710.0",
+    "Latitude": "40.82881933",
+    "Longitude": "14.405989",
+    "Altitude": "657.462",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:35.000Z",
+    "Distance": "3728.5",
+    "Latitude": "40.828922",
+    "Longitude": "14.4062135",
+    "Altitude": "658.224",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:36.000Z",
+    "Distance": "3747.0555542839897",
+    "Latitude": "40.8290265",
+    "Longitude": "14.4064135",
+    "Altitude": "658.224",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:37.000Z",
+    "Distance": "3765.6111085679795",
+    "Latitude": "40.82911667",
+    "Longitude": "14.406562",
+    "Altitude": "658.986",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:38.000Z",
+    "Distance": "3784.1666628519692",
+    "Latitude": "40.82919283",
+    "Longitude": "14.40667933",
+    "Altitude": "658.986",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:39.000Z",
+    "Distance": "3802.722217135959",
+    "Latitude": "40.82927817",
+    "Longitude": "14.40678433",
+    "Altitude": "659.595",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:40.000Z",
+    "Distance": "3821.2777714199487",
+    "Latitude": "40.82936683",
+    "Longitude": "14.40687033",
+    "Altitude": "659.595",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:41.000Z",
+    "Distance": "3839.8333257039385",
+    "Latitude": "40.82946217",
+    "Longitude": "14.4069335",
+    "Altitude": "660.357",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:42.000Z",
+    "Distance": "3858.3888799879282",
+    "Latitude": "40.829546",
+    "Longitude": "14.4069605",
+    "Altitude": "660.357",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:43.000Z",
+    "Distance": "3876.944434271918",
+    "Latitude": "40.82962717",
+    "Longitude": "14.40697183",
+    "Altitude": "660.967",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:44.000Z",
+    "Distance": "3885.10009765625",
+    "Latitude": "40.82970617",
+    "Longitude": "14.40697917",
+    "Altitude": "660.967",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:45.000Z",
+    "Distance": "3889.60009765625",
+    "Latitude": "40.82978433",
+    "Longitude": "14.40699967",
+    "Altitude": "661.576",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:46.000Z",
+    "Distance": "3894.10009765625",
+    "Latitude": "40.82985233",
+    "Longitude": "14.40702683",
+    "Altitude": "661.576",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:47.000Z",
+    "Distance": "3899.300048828125",
+    "Latitude": "40.829903",
+    "Longitude": "14.40706567",
+    "Altitude": "662.338",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:48.000Z",
+    "Distance": "3904.699951171875",
+    "Latitude": "40.82993867",
+    "Longitude": "14.40710583",
+    "Altitude": "662.338",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:49.000Z",
+    "Distance": "3908.89990234375",
+    "Latitude": "40.829953",
+    "Longitude": "14.40713383",
+    "Altitude": "662.948",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:50.000Z",
+    "Distance": "3911.39990234375",
+    "Latitude": "40.829952",
+    "Longitude": "14.407149",
+    "Altitude": "662.948",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:51.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.82993183",
+    "Longitude": "14.40715633",
+    "Altitude": "663.862",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:52.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.829897",
+    "Longitude": "14.407167",
+    "Altitude": "663.862",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:53.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.82985467",
+    "Longitude": "14.40716417",
+    "Altitude": "664.777",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:54.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.82981233",
+    "Longitude": "14.40714867",
+    "Altitude": "664.777",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:55.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.82977267",
+    "Longitude": "14.4071245",
+    "Altitude": "665.844",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:56.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.829732",
+    "Longitude": "14.40710283",
+    "Altitude": "665.844",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:57.000Z",
+    "Distance": "3911.699951171875",
+    "Latitude": "40.82968933",
+    "Longitude": "14.40708283",
+    "Altitude": "667.063",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:58.000Z",
+    "Distance": "3916.60009765625",
+    "Latitude": "40.82964567",
+    "Longitude": "14.4070595",
+    "Altitude": "667.063",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:51:59.000Z",
+    "Distance": "3923.89990234375",
+    "Latitude": "40.82960083",
+    "Longitude": "14.40703417",
+    "Altitude": "668.282",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:00.000Z",
+    "Distance": "3931.300048828125",
+    "Latitude": "40.829556",
+    "Longitude": "14.40700883",
+    "Altitude": "668.282",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:01.000Z",
+    "Distance": "3938.0",
+    "Latitude": "40.8295115",
+    "Longitude": "14.40698533",
+    "Altitude": "669.654",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:02.000Z",
+    "Distance": "3944.10009765625",
+    "Latitude": "40.8294665",
+    "Longitude": "14.406962",
+    "Altitude": "669.654",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:03.000Z",
+    "Distance": "3949.800048828125",
+    "Latitude": "40.82942017",
+    "Longitude": "14.4069375",
+    "Altitude": "671.178",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:04.000Z",
+    "Distance": "3955.60009765625",
+    "Latitude": "40.8293725",
+    "Longitude": "14.40691017",
+    "Altitude": "671.178",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:05.000Z",
+    "Distance": "3961.5",
+    "Latitude": "40.829323",
+    "Longitude": "14.40687917",
+    "Altitude": "672.702",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:06.000Z",
+    "Distance": "3967.800048828125",
+    "Latitude": "40.829267",
+    "Longitude": "14.406849",
+    "Altitude": "672.702",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:07.000Z",
+    "Distance": "3974.5",
+    "Latitude": "40.82920783",
+    "Longitude": "14.40681783",
+    "Altitude": "674.226",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:08.000Z",
+    "Distance": "3981.5",
+    "Latitude": "40.82914533",
+    "Longitude": "14.40678633",
+    "Altitude": "674.226",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:09.000Z",
+    "Distance": "3988.89990234375",
+    "Latitude": "40.82908583",
+    "Longitude": "14.40675033",
+    "Altitude": "675.902",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:10.000Z",
+    "Distance": "3996.39990234375",
+    "Latitude": "40.8290265",
+    "Longitude": "14.406711",
+    "Altitude": "675.902",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:11.000Z",
+    "Distance": "4004.300048828125",
+    "Latitude": "40.82897133",
+    "Longitude": "14.40666367",
+    "Altitude": "677.579",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:12.000Z",
+    "Distance": "4012.300048828125",
+    "Latitude": "40.82891733",
+    "Longitude": "14.40660933",
+    "Altitude": "677.579",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:13.000Z",
+    "Distance": "4020.60009765625",
+    "Latitude": "40.82886367",
+    "Longitude": "14.406549",
+    "Altitude": "679.255",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:14.000Z",
+    "Distance": "4029.0",
+    "Latitude": "40.82880283",
+    "Longitude": "14.4064945",
+    "Altitude": "679.255",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:15.000Z",
+    "Distance": "4037.60009765625",
+    "Latitude": "40.82874017",
+    "Longitude": "14.40645267",
+    "Altitude": "680.931",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:16.000Z",
+    "Distance": "4045.800048828125",
+    "Latitude": "40.82867117",
+    "Longitude": "14.40642933",
+    "Altitude": "680.931",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:17.000Z",
+    "Distance": "4053.699951171875",
+    "Latitude": "40.82859983",
+    "Longitude": "14.40641517",
+    "Altitude": "682.76",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:18.000Z",
+    "Distance": "4061.699951171875",
+    "Latitude": "40.82852517",
+    "Longitude": "14.40640417",
+    "Altitude": "682.76",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:19.000Z",
+    "Distance": "4070.199951171875",
+    "Latitude": "40.828454",
+    "Longitude": "14.4063915",
+    "Altitude": "684.437",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:20.000Z",
+    "Distance": "4078.5",
+    "Latitude": "40.82838717",
+    "Longitude": "14.40638667",
+    "Altitude": "684.437",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:21.000Z",
+    "Distance": "4086.10009765625",
+    "Latitude": "40.82832717",
+    "Longitude": "14.40639767",
+    "Altitude": "686.266",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:22.000Z",
+    "Distance": "4093.10009765625",
+    "Latitude": "40.82827417",
+    "Longitude": "14.406424",
+    "Altitude": "686.266",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:23.000Z",
+    "Distance": "4099.60009765625",
+    "Latitude": "40.828241",
+    "Longitude": "14.40645783",
+    "Altitude": "687.942",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:24.000Z",
+    "Distance": "4104.60009765625",
+    "Latitude": "40.828227",
+    "Longitude": "14.406492",
+    "Altitude": "687.942",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:25.000Z",
+    "Distance": "4108.2001953125",
+    "Latitude": "40.82823933",
+    "Longitude": "14.40652783",
+    "Altitude": "689.771",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:26.000Z",
+    "Distance": "4109.7001953125",
+    "Latitude": "40.82826933",
+    "Longitude": "14.40656217",
+    "Altitude": "689.771",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:27.000Z",
+    "Distance": "4110.60009765625",
+    "Latitude": "40.82831117",
+    "Longitude": "14.406588",
+    "Altitude": "691.447",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:28.000Z",
+    "Distance": "4111.89990234375",
+    "Latitude": "40.82836417",
+    "Longitude": "14.40659833",
+    "Altitude": "691.447",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:29.000Z",
+    "Distance": "4113.7001953125",
+    "Latitude": "40.82842483",
+    "Longitude": "14.40659483",
+    "Altitude": "693.276",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:30.000Z",
+    "Distance": "4115.2998046875",
+    "Latitude": "40.82849467",
+    "Longitude": "14.40658667",
+    "Altitude": "693.276",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:31.000Z",
+    "Distance": "4118.7001953125",
+    "Latitude": "40.82856517",
+    "Longitude": "14.40658583",
+    "Altitude": "694.952",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:32.000Z",
+    "Distance": "4125.0",
+    "Latitude": "40.82863433",
+    "Longitude": "14.40660467",
+    "Altitude": "694.952",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:33.000Z",
+    "Distance": "4134.0",
+    "Latitude": "40.82870167",
+    "Longitude": "14.40665933",
+    "Altitude": "696.629",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:34.000Z",
+    "Distance": "4144.2001953125",
+    "Latitude": "40.828765",
+    "Longitude": "14.40673683",
+    "Altitude": "696.629",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:35.000Z",
+    "Distance": "4154.89990234375",
+    "Latitude": "40.82882267",
+    "Longitude": "14.40682583",
+    "Altitude": "698.458",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:36.000Z",
+    "Distance": "4166.0",
+    "Latitude": "40.82887467",
+    "Longitude": "14.40690967",
+    "Altitude": "698.458",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:37.000Z",
+    "Distance": "4176.60009765625",
+    "Latitude": "40.82892067",
+    "Longitude": "14.406995",
+    "Altitude": "700.134",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:38.000Z",
+    "Distance": "4186.10009765625",
+    "Latitude": "40.82896317",
+    "Longitude": "14.4070825",
+    "Altitude": "700.134",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:39.000Z",
+    "Distance": "4195.2001953125",
+    "Latitude": "40.82900817",
+    "Longitude": "14.40717133",
+    "Altitude": "701.81",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:40.000Z",
+    "Distance": "4204.7001953125",
+    "Latitude": "40.82906467",
+    "Longitude": "14.40726033",
+    "Altitude": "701.81",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:41.000Z",
+    "Distance": "4215.39990234375",
+    "Latitude": "40.8291355",
+    "Longitude": "14.40734233",
+    "Altitude": "703.487",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:42.000Z",
+    "Distance": "4226.5",
+    "Latitude": "40.829213",
+    "Longitude": "14.40741317",
+    "Altitude": "703.487",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:43.000Z",
+    "Distance": "4237.0",
+    "Latitude": "40.8292915",
+    "Longitude": "14.40747717",
+    "Altitude": "705.163",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:44.000Z",
+    "Distance": "4247.10009765625",
+    "Latitude": "40.82936633",
+    "Longitude": "14.40754467",
+    "Altitude": "705.163",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:45.000Z",
+    "Distance": "4257.10009765625",
+    "Latitude": "40.82944367",
+    "Longitude": "14.40761633",
+    "Altitude": "706.84",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:46.000Z",
+    "Distance": "4267.7998046875",
+    "Latitude": "40.829524",
+    "Longitude": "14.4076905",
+    "Altitude": "706.84",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:47.000Z",
+    "Distance": "4279.0",
+    "Latitude": "40.82960767",
+    "Longitude": "14.40776217",
+    "Altitude": "708.364",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:48.000Z",
+    "Distance": "4290.7001953125",
+    "Latitude": "40.8296925",
+    "Longitude": "14.40783217",
+    "Altitude": "708.364",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:49.000Z",
+    "Distance": "4302.7001953125",
+    "Latitude": "40.8297785",
+    "Longitude": "14.40790233",
+    "Altitude": "710.04",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:50.000Z",
+    "Distance": "4314.39990234375",
+    "Latitude": "40.829865",
+    "Longitude": "14.4079745",
+    "Altitude": "710.04",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:51.000Z",
+    "Distance": "4326.0",
+    "Latitude": "40.82995333",
+    "Longitude": "14.40804833",
+    "Altitude": "711.564",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:52.000Z",
+    "Distance": "4337.7998046875",
+    "Latitude": "40.83004317",
+    "Longitude": "14.408122",
+    "Altitude": "711.564",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:53.000Z",
+    "Distance": "4349.89990234375",
+    "Latitude": "40.8301365",
+    "Longitude": "14.40819633",
+    "Altitude": "713.241",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:54.000Z",
+    "Distance": "4362.5",
+    "Latitude": "40.83023033",
+    "Longitude": "14.4082725",
+    "Altitude": "713.241",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:55.000Z",
+    "Distance": "4375.2001953125",
+    "Latitude": "40.83032283",
+    "Longitude": "14.40835283",
+    "Altitude": "714.917",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:56.000Z",
+    "Distance": "4387.7998046875",
+    "Latitude": "40.83040867",
+    "Longitude": "14.40844533",
+    "Altitude": "714.917",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:57.000Z",
+    "Distance": "4400.5",
+    "Latitude": "40.830489",
+    "Longitude": "14.4085505",
+    "Altitude": "716.594",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:58.000Z",
+    "Distance": "4413.39990234375",
+    "Latitude": "40.83056283",
+    "Longitude": "14.40866267",
+    "Altitude": "716.594",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:52:59.000Z",
+    "Distance": "4426.2998046875",
+    "Latitude": "40.8306325",
+    "Longitude": "14.4087765",
+    "Altitude": "718.27",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:00.000Z",
+    "Distance": "4439.10009765625",
+    "Latitude": "40.830699",
+    "Longitude": "14.40889033",
+    "Altitude": "718.27",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:01.000Z",
+    "Distance": "4451.7001953125",
+    "Latitude": "40.8307655",
+    "Longitude": "14.40900133",
+    "Altitude": "719.946",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:02.000Z",
+    "Distance": "4464.0",
+    "Latitude": "40.83083917",
+    "Longitude": "14.40910567",
+    "Altitude": "719.946",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:03.000Z",
+    "Distance": "4476.2001953125",
+    "Latitude": "40.8309175",
+    "Longitude": "14.40920283",
+    "Altitude": "721.623",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:04.000Z",
+    "Distance": "4488.2998046875",
+    "Latitude": "40.830997",
+    "Longitude": "14.40930117",
+    "Altitude": "721.623",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:05.000Z",
+    "Distance": "4500.60009765625",
+    "Latitude": "40.83107083",
+    "Longitude": "14.40940633",
+    "Altitude": "723.299",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:06.000Z",
+    "Distance": "4512.7998046875",
+    "Latitude": "40.831139",
+    "Longitude": "14.4095195",
+    "Altitude": "723.299",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:07.000Z",
+    "Distance": "4524.7001953125",
+    "Latitude": "40.8311955",
+    "Longitude": "14.4096395",
+    "Altitude": "724.976",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:08.000Z",
+    "Distance": "4536.39990234375",
+    "Latitude": "40.83122767",
+    "Longitude": "14.40976367",
+    "Altitude": "724.976",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:09.000Z",
+    "Distance": "4547.2998046875",
+    "Latitude": "40.83122283",
+    "Longitude": "14.40989267",
+    "Altitude": "726.652",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:10.000Z",
+    "Distance": "4557.5",
+    "Latitude": "40.83120267",
+    "Longitude": "14.41003183",
+    "Altitude": "726.652",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:11.000Z",
+    "Distance": "4568.5",
+    "Latitude": "40.83118433",
+    "Longitude": "14.4101785",
+    "Altitude": "728.176",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:12.000Z",
+    "Distance": "4580.2001953125",
+    "Latitude": "40.831187",
+    "Longitude": "14.4103245",
+    "Altitude": "728.176",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:13.000Z",
+    "Distance": "4591.7998046875",
+    "Latitude": "40.83120167",
+    "Longitude": "14.410465",
+    "Altitude": "729.852",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:14.000Z",
+    "Distance": "4602.2998046875",
+    "Latitude": "40.83122233",
+    "Longitude": "14.41060633",
+    "Altitude": "729.852",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:15.000Z",
+    "Distance": "4613.60009765625",
+    "Latitude": "40.83124467",
+    "Longitude": "14.4107535",
+    "Altitude": "731.376",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:16.000Z",
+    "Distance": "4626.2998046875",
+    "Latitude": "40.83125683",
+    "Longitude": "14.41090667",
+    "Altitude": "731.376",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:17.000Z",
+    "Distance": "4640.0",
+    "Latitude": "40.83125817",
+    "Longitude": "14.4110625",
+    "Altitude": "733.053",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:18.000Z",
+    "Distance": "4653.7001953125",
+    "Latitude": "40.831243",
+    "Longitude": "14.41122467",
+    "Altitude": "733.053",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:19.000Z",
+    "Distance": "4667.7001953125",
+    "Latitude": "40.8312215",
+    "Longitude": "14.411392",
+    "Altitude": "734.729",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:20.000Z",
+    "Distance": "4682.0",
+    "Latitude": "40.83119983",
+    "Longitude": "14.41155067",
+    "Altitude": "734.729",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:21.000Z",
+    "Distance": "4696.0",
+    "Latitude": "40.83117933",
+    "Longitude": "14.411703",
+    "Altitude": "736.406",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:22.000Z",
+    "Distance": "4709.7001953125",
+    "Latitude": "40.83114883",
+    "Longitude": "14.41185483",
+    "Altitude": "736.406",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:23.000Z",
+    "Distance": "4723.60009765625",
+    "Latitude": "40.83108483",
+    "Longitude": "14.41199117",
+    "Altitude": "737.93",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:24.000Z",
+    "Distance": "4737.2998046875",
+    "Latitude": "40.83100767",
+    "Longitude": "14.41212683",
+    "Altitude": "737.93",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:25.000Z",
+    "Distance": "4751.39990234375",
+    "Latitude": "40.83093117",
+    "Longitude": "14.41225583",
+    "Altitude": "739.606",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:26.000Z",
+    "Distance": "4765.60009765625",
+    "Latitude": "40.83087417",
+    "Longitude": "14.4124065",
+    "Altitude": "739.606",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:27.000Z",
+    "Distance": "4780.10009765625",
+    "Latitude": "40.830821",
+    "Longitude": "14.41256167",
+    "Altitude": "741.283",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:28.000Z",
+    "Distance": "4793.7998046875",
+    "Latitude": "40.830758",
+    "Longitude": "14.4127215",
+    "Altitude": "741.283",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:29.000Z",
+    "Distance": "4808.0",
+    "Latitude": "40.8306875",
+    "Longitude": "14.41287817",
+    "Altitude": "743.111",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:30.000Z",
+    "Distance": "4823.39990234375",
+    "Latitude": "40.83060267",
+    "Longitude": "14.41302283",
+    "Altitude": "743.111",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:31.000Z",
+    "Distance": "4839.5",
+    "Latitude": "40.83051583",
+    "Longitude": "14.41315817",
+    "Altitude": "745.093",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:32.000Z",
+    "Distance": "4855.39990234375",
+    "Latitude": "40.830422",
+    "Longitude": "14.41328683",
+    "Altitude": "745.093",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:33.000Z",
+    "Distance": "4871.10009765625",
+    "Latitude": "40.8303305",
+    "Longitude": "14.4134155",
+    "Altitude": "747.226",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:34.000Z",
+    "Distance": "4886.60009765625",
+    "Latitude": "40.830239",
+    "Longitude": "14.41354083",
+    "Altitude": "747.226",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:35.000Z",
+    "Distance": "4902.10009765625",
+    "Latitude": "40.83015083",
+    "Longitude": "14.4136625",
+    "Altitude": "749.512",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:36.000Z",
+    "Distance": "4916.89990234375",
+    "Latitude": "40.83006317",
+    "Longitude": "14.41377833",
+    "Altitude": "749.512",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:37.000Z",
+    "Distance": "4931.5",
+    "Latitude": "40.829971",
+    "Longitude": "14.41388333",
+    "Altitude": "751.951",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:38.000Z",
+    "Distance": "4945.2998046875",
+    "Latitude": "40.82987617",
+    "Longitude": "14.41397767",
+    "Altitude": "751.951",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:39.000Z",
+    "Distance": "4958.60009765625",
+    "Latitude": "40.8297685",
+    "Longitude": "14.414048",
+    "Altitude": "754.237",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:40.000Z",
+    "Distance": "4971.39990234375",
+    "Latitude": "40.82966183",
+    "Longitude": "14.414112",
+    "Altitude": "754.237",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:41.000Z",
+    "Distance": "4984.2001953125",
+    "Latitude": "40.82955433",
+    "Longitude": "14.41416983",
+    "Altitude": "756.523",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:42.000Z",
+    "Distance": "4996.60009765625",
+    "Latitude": "40.82945717",
+    "Longitude": "14.41423867",
+    "Altitude": "756.523",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:43.000Z",
+    "Distance": "5008.5",
+    "Latitude": "40.82935867",
+    "Longitude": "14.4143055",
+    "Altitude": "758.809",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:44.000Z",
+    "Distance": "5020.2001953125",
+    "Latitude": "40.8292605",
+    "Longitude": "14.414373",
+    "Altitude": "758.809",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:45.000Z",
+    "Distance": "5032.10009765625",
+    "Latitude": "40.829158",
+    "Longitude": "14.4144365",
+    "Altitude": "760.942",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:46.000Z",
+    "Distance": "5044.2998046875",
+    "Latitude": "40.829053",
+    "Longitude": "14.41449733",
+    "Altitude": "760.942",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:47.000Z",
+    "Distance": "5056.7998046875",
+    "Latitude": "40.8289455",
+    "Longitude": "14.4145555",
+    "Altitude": "763.076",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:48.000Z",
+    "Distance": "5069.5",
+    "Latitude": "40.828838",
+    "Longitude": "14.414614",
+    "Altitude": "763.076",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:49.000Z",
+    "Distance": "5082.10009765625",
+    "Latitude": "40.828729",
+    "Longitude": "14.414673",
+    "Altitude": "765.362",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:50.000Z",
+    "Distance": "5095.0",
+    "Latitude": "40.82861933",
+    "Longitude": "14.41473467",
+    "Altitude": "765.362",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:51.000Z",
+    "Distance": "5108.2001953125",
+    "Latitude": "40.82851383",
+    "Longitude": "14.41480167",
+    "Altitude": "767.496",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:52.000Z",
+    "Distance": "5121.60009765625",
+    "Latitude": "40.82842333",
+    "Longitude": "14.41488883",
+    "Altitude": "767.496",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:53.000Z",
+    "Distance": "5134.5",
+    "Latitude": "40.8283515",
+    "Longitude": "14.41500667",
+    "Altitude": "769.782",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:54.000Z",
+    "Distance": "5147.2001953125",
+    "Latitude": "40.82828567",
+    "Longitude": "14.41513817",
+    "Altitude": "769.782",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:55.000Z",
+    "Distance": "5160.2001953125",
+    "Latitude": "40.8282175",
+    "Longitude": "14.41526483",
+    "Altitude": "772.22",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:56.000Z",
+    "Distance": "5173.39990234375",
+    "Latitude": "40.82814717",
+    "Longitude": "14.4153765",
+    "Altitude": "772.22",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:57.000Z",
+    "Distance": "5185.7001953125",
+    "Latitude": "40.82808633",
+    "Longitude": "14.415489",
+    "Altitude": "774.659",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:58.000Z",
+    "Distance": "5197.10009765625",
+    "Latitude": "40.82803783",
+    "Longitude": "14.41560667",
+    "Altitude": "774.659",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:53:59.000Z",
+    "Distance": "5208.2001953125",
+    "Latitude": "40.82800333",
+    "Longitude": "14.415733",
+    "Altitude": "777.097",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:00.000Z",
+    "Distance": "5219.5",
+    "Latitude": "40.82797767",
+    "Longitude": "14.41586683",
+    "Altitude": "777.097",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:01.000Z",
+    "Distance": "5231.2001953125",
+    "Latitude": "40.82795733",
+    "Longitude": "14.41600433",
+    "Altitude": "779.688",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:02.000Z",
+    "Distance": "5243.0",
+    "Latitude": "40.8279535",
+    "Longitude": "14.41616417",
+    "Altitude": "779.688",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:03.000Z",
+    "Distance": "5255.2001953125",
+    "Latitude": "40.82795633",
+    "Longitude": "14.41633367",
+    "Altitude": "782.279",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:04.000Z",
+    "Distance": "5267.7001953125",
+    "Latitude": "40.827973",
+    "Longitude": "14.416531",
+    "Altitude": "782.279",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:05.000Z",
+    "Distance": "5282.10009765625",
+    "Latitude": "40.827983",
+    "Longitude": "14.416722",
+    "Altitude": "785.174",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:06.000Z",
+    "Distance": "5297.7998046875",
+    "Latitude": "40.82800633",
+    "Longitude": "14.41692533",
+    "Altitude": "785.174",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:07.000Z",
+    "Distance": "5315.0",
+    "Latitude": "40.82803483",
+    "Longitude": "14.4171175",
+    "Altitude": "788.222",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:08.000Z",
+    "Distance": "5332.7998046875",
+    "Latitude": "40.82806717",
+    "Longitude": "14.4173045",
+    "Altitude": "788.222",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:09.000Z",
+    "Distance": "5350.89990234375",
+    "Latitude": "40.82810467",
+    "Longitude": "14.417479",
+    "Altitude": "791.423",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:10.000Z",
+    "Distance": "5368.89990234375",
+    "Latitude": "40.82815533",
+    "Longitude": "14.41765083",
+    "Altitude": "791.423",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:11.000Z",
+    "Distance": "5386.89990234375",
+    "Latitude": "40.82823",
+    "Longitude": "14.41782167",
+    "Altitude": "794.318",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:12.000Z",
+    "Distance": "5404.60009765625",
+    "Latitude": "40.82835067",
+    "Longitude": "14.41798617",
+    "Altitude": "794.318",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:13.000Z",
+    "Distance": "5423.15565194024",
+    "Latitude": "40.82847783",
+    "Longitude": "14.418152",
+    "Altitude": "797.062",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:14.000Z",
+    "Distance": "5441.60009765625",
+    "Latitude": "40.828615",
+    "Longitude": "14.41832083",
+    "Altitude": "797.062",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:15.000Z",
+    "Distance": "5460.15565194024",
+    "Latitude": "40.828727",
+    "Longitude": "14.41851417",
+    "Altitude": "799.805",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:16.000Z",
+    "Distance": "5478.71120622423",
+    "Latitude": "40.82884217",
+    "Longitude": "14.4187125",
+    "Altitude": "799.805",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:17.000Z",
+    "Distance": "5497.266760508221",
+    "Latitude": "40.82894783",
+    "Longitude": "14.418912",
+    "Altitude": "802.396",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:18.000Z",
+    "Distance": "5515.822314792211",
+    "Latitude": "40.82904817",
+    "Longitude": "14.419099",
+    "Altitude": "802.396",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:19.000Z",
+    "Distance": "5534.377869076201",
+    "Latitude": "40.8291445",
+    "Longitude": "14.41928083",
+    "Altitude": "804.987",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:20.000Z",
+    "Distance": "5552.933423360191",
+    "Latitude": "40.82924033",
+    "Longitude": "14.41945983",
+    "Altitude": "804.987",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:21.000Z",
+    "Distance": "5571.488977644181",
+    "Latitude": "40.82933617",
+    "Longitude": "14.41963433",
+    "Altitude": "807.577",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:22.000Z",
+    "Distance": "5590.044531928172",
+    "Latitude": "40.82943217",
+    "Longitude": "14.41980367",
+    "Altitude": "807.577",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:23.000Z",
+    "Distance": "5608.600086212162",
+    "Latitude": "40.82952583",
+    "Longitude": "14.41996733",
+    "Altitude": "810.016",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:24.000Z",
+    "Distance": "5627.155640496152",
+    "Latitude": "40.82961233",
+    "Longitude": "14.42012483",
+    "Altitude": "810.016",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:25.000Z",
+    "Distance": "5645.711194780142",
+    "Latitude": "40.82969033",
+    "Longitude": "14.42027167",
+    "Altitude": "812.607",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:26.000Z",
+    "Distance": "5664.2667490641325",
+    "Latitude": "40.829756",
+    "Longitude": "14.42041",
+    "Altitude": "812.607",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:27.000Z",
+    "Distance": "5682.822303348123",
+    "Latitude": "40.82980117",
+    "Longitude": "14.42054133",
+    "Altitude": "815.045",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:28.000Z",
+    "Distance": "5700.39990234375",
+    "Latitude": "40.82980867",
+    "Longitude": "14.42065117",
+    "Altitude": "815.045",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:29.000Z",
+    "Distance": "5709.7998046875",
+    "Latitude": "40.82979617",
+    "Longitude": "14.42076133",
+    "Altitude": "817.484",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:30.000Z",
+    "Distance": "5717.7998046875",
+    "Latitude": "40.82976333",
+    "Longitude": "14.42087183",
+    "Altitude": "817.484",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:31.000Z",
+    "Distance": "5725.39990234375",
+    "Latitude": "40.82972883",
+    "Longitude": "14.4210065",
+    "Altitude": "819.77",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:32.000Z",
+    "Distance": "5734.10009765625",
+    "Latitude": "40.82968633",
+    "Longitude": "14.42114533",
+    "Altitude": "819.77",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:33.000Z",
+    "Distance": "5742.2001953125",
+    "Latitude": "40.82965317",
+    "Longitude": "14.42128617",
+    "Altitude": "822.208",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:34.000Z",
+    "Distance": "5750.5",
+    "Latitude": "40.829638",
+    "Longitude": "14.42142267",
+    "Altitude": "822.208",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:35.000Z",
+    "Distance": "5759.2001953125",
+    "Latitude": "40.829643",
+    "Longitude": "14.42155467",
+    "Altitude": "824.646",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:36.000Z",
+    "Distance": "5769.39990234375",
+    "Latitude": "40.82968117",
+    "Longitude": "14.42169217",
+    "Altitude": "824.646",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:37.000Z",
+    "Distance": "5781.2998046875",
+    "Latitude": "40.82975183",
+    "Longitude": "14.4218415",
+    "Altitude": "827.085",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:38.000Z",
+    "Distance": "5795.7998046875",
+    "Latitude": "40.82984067",
+    "Longitude": "14.42198783",
+    "Altitude": "827.085",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:39.000Z",
+    "Distance": "5811.10009765625",
+    "Latitude": "40.82993033",
+    "Longitude": "14.4221205",
+    "Altitude": "829.523",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:40.000Z",
+    "Distance": "5826.2001953125",
+    "Latitude": "40.83002017",
+    "Longitude": "14.42223483",
+    "Altitude": "829.523",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:41.000Z",
+    "Distance": "5839.5",
+    "Latitude": "40.83011367",
+    "Longitude": "14.42234383",
+    "Altitude": "831.809",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:42.000Z",
+    "Distance": "5853.0",
+    "Latitude": "40.8302135",
+    "Longitude": "14.42244883",
+    "Altitude": "831.809",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:43.000Z",
+    "Distance": "5867.89990234375",
+    "Latitude": "40.830311",
+    "Longitude": "14.42255383",
+    "Altitude": "834.095",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:44.000Z",
+    "Distance": "5883.89990234375",
+    "Latitude": "40.830409",
+    "Longitude": "14.422667",
+    "Altitude": "834.095",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:45.000Z",
+    "Distance": "5900.60009765625",
+    "Latitude": "40.83050167",
+    "Longitude": "14.42279283",
+    "Altitude": "836.381",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:46.000Z",
+    "Distance": "5916.5",
+    "Latitude": "40.83058833",
+    "Longitude": "14.42292617",
+    "Altitude": "836.381",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:47.000Z",
+    "Distance": "5931.0",
+    "Latitude": "40.83066667",
+    "Longitude": "14.4230625",
+    "Altitude": "838.515",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:48.000Z",
+    "Distance": "5944.7998046875",
+    "Latitude": "40.83073983",
+    "Longitude": "14.42319517",
+    "Altitude": "838.515",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:49.000Z",
+    "Distance": "5958.7001953125",
+    "Latitude": "40.8308075",
+    "Longitude": "14.4233275",
+    "Altitude": "840.649",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:50.000Z",
+    "Distance": "5972.7998046875",
+    "Latitude": "40.830868",
+    "Longitude": "14.42345567",
+    "Altitude": "840.649",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:51.000Z",
+    "Distance": "5986.2001953125",
+    "Latitude": "40.830917",
+    "Longitude": "14.4235845",
+    "Altitude": "842.782",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:52.000Z",
+    "Distance": "5998.89990234375",
+    "Latitude": "40.83095117",
+    "Longitude": "14.423737",
+    "Altitude": "842.782",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:53.000Z",
+    "Distance": "6012.10009765625",
+    "Latitude": "40.83097667",
+    "Longitude": "14.423906",
+    "Altitude": "844.611",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:54.000Z",
+    "Distance": "6025.5",
+    "Latitude": "40.83099867",
+    "Longitude": "14.42408367",
+    "Altitude": "844.611",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:55.000Z",
+    "Distance": "6039.39990234375",
+    "Latitude": "40.8310275",
+    "Longitude": "14.42424467",
+    "Altitude": "846.287",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:56.000Z",
+    "Distance": "6052.7001953125",
+    "Latitude": "40.83106083",
+    "Longitude": "14.4243975",
+    "Altitude": "846.287",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:57.000Z",
+    "Distance": "6065.7001953125",
+    "Latitude": "40.831095",
+    "Longitude": "14.42454783",
+    "Altitude": "847.964",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:58.000Z",
+    "Distance": "6079.0",
+    "Latitude": "40.83112533",
+    "Longitude": "14.42469983",
+    "Altitude": "847.964",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:54:59.000Z",
+    "Distance": "6092.7001953125",
+    "Latitude": "40.83114117",
+    "Longitude": "14.42486667",
+    "Altitude": "849.64",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:00.000Z",
+    "Distance": "6107.60009765625",
+    "Latitude": "40.83114633",
+    "Longitude": "14.42504817",
+    "Altitude": "849.64",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:01.000Z",
+    "Distance": "6123.39990234375",
+    "Latitude": "40.83114567",
+    "Longitude": "14.42523917",
+    "Altitude": "851.469",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:02.000Z",
+    "Distance": "6139.10009765625",
+    "Latitude": "40.831144",
+    "Longitude": "14.425423",
+    "Altitude": "851.469",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:03.000Z",
+    "Distance": "6154.2001953125",
+    "Latitude": "40.831135",
+    "Longitude": "14.425596",
+    "Altitude": "853.298",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:04.000Z",
+    "Distance": "6168.5",
+    "Latitude": "40.831117",
+    "Longitude": "14.425765",
+    "Altitude": "853.298",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:05.000Z",
+    "Distance": "6183.2998046875",
+    "Latitude": "40.83109017",
+    "Longitude": "14.425926",
+    "Altitude": "854.974",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:06.000Z",
+    "Distance": "6198.2001953125",
+    "Latitude": "40.831063",
+    "Longitude": "14.42608617",
+    "Altitude": "854.974",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:07.000Z",
+    "Distance": "6213.2998046875",
+    "Latitude": "40.8310335",
+    "Longitude": "14.42624",
+    "Altitude": "856.498",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:08.000Z",
+    "Distance": "6228.0",
+    "Latitude": "40.83100517",
+    "Longitude": "14.42639383",
+    "Altitude": "856.498",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:09.000Z",
+    "Distance": "6241.89990234375",
+    "Latitude": "40.830966",
+    "Longitude": "14.42653433",
+    "Altitude": "858.327",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:10.000Z",
+    "Distance": "6254.2998046875",
+    "Latitude": "40.83091117",
+    "Longitude": "14.4266585",
+    "Altitude": "858.327",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:11.000Z",
+    "Distance": "6265.5",
+    "Latitude": "40.83084567",
+    "Longitude": "14.42677033",
+    "Altitude": "860.004",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:12.000Z",
+    "Distance": "6276.60009765625",
+    "Latitude": "40.83077083",
+    "Longitude": "14.42687333",
+    "Altitude": "860.004",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:13.000Z",
+    "Distance": "6288.0",
+    "Latitude": "40.83067083",
+    "Longitude": "14.4269395",
+    "Altitude": "861.68",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:14.000Z",
+    "Distance": "6298.7001953125",
+    "Latitude": "40.83055417",
+    "Longitude": "14.426956",
+    "Altitude": "861.68",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:15.000Z",
+    "Distance": "6309.10009765625",
+    "Latitude": "40.83043667",
+    "Longitude": "14.426959",
+    "Altitude": "863.204",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:16.000Z",
+    "Distance": "6319.89990234375",
+    "Latitude": "40.83034217",
+    "Longitude": "14.42698467",
+    "Altitude": "863.204",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:17.000Z",
+    "Distance": "6330.5",
+    "Latitude": "40.83027133",
+    "Longitude": "14.427045",
+    "Altitude": "864.728",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:18.000Z",
+    "Distance": "6339.2001953125",
+    "Latitude": "40.8302095",
+    "Longitude": "14.4271125",
+    "Altitude": "864.728",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:19.000Z",
+    "Distance": "6347.10009765625",
+    "Latitude": "40.83015683",
+    "Longitude": "14.42718417",
+    "Altitude": "865.947",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:20.000Z",
+    "Distance": "6355.7001953125",
+    "Latitude": "40.83010467",
+    "Longitude": "14.42726283",
+    "Altitude": "865.947",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:21.000Z",
+    "Distance": "6365.2001953125",
+    "Latitude": "40.83005967",
+    "Longitude": "14.42735467",
+    "Altitude": "867.319",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:22.000Z",
+    "Distance": "6373.7998046875",
+    "Latitude": "40.83002017",
+    "Longitude": "14.42746683",
+    "Altitude": "867.319",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:23.000Z",
+    "Distance": "6381.7001953125",
+    "Latitude": "40.82998183",
+    "Longitude": "14.42759567",
+    "Altitude": "868.538",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:24.000Z",
+    "Distance": "6390.10009765625",
+    "Latitude": "40.82993567",
+    "Longitude": "14.42772117",
+    "Altitude": "868.538",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:25.000Z",
+    "Distance": "6399.89990234375",
+    "Latitude": "40.82986633",
+    "Longitude": "14.427822",
+    "Altitude": "869.757",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:26.000Z",
+    "Distance": "6410.7001953125",
+    "Latitude": "40.82978333",
+    "Longitude": "14.4279",
+    "Altitude": "869.757",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:27.000Z",
+    "Distance": "6421.7998046875",
+    "Latitude": "40.82969517",
+    "Longitude": "14.42796883",
+    "Altitude": "870.977",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:28.000Z",
+    "Distance": "6433.7998046875",
+    "Latitude": "40.82962117",
+    "Longitude": "14.428049",
+    "Altitude": "870.977",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:29.000Z",
+    "Distance": "6446.39990234375",
+    "Latitude": "40.82956183",
+    "Longitude": "14.42814417",
+    "Altitude": "872.348",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:30.000Z",
+    "Distance": "6457.89990234375",
+    "Latitude": "40.82953417",
+    "Longitude": "14.42826133",
+    "Altitude": "872.348",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:31.000Z",
+    "Distance": "6468.10009765625",
+    "Latitude": "40.82953217",
+    "Longitude": "14.42838567",
+    "Altitude": "873.567",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:32.000Z",
+    "Distance": "6477.7998046875",
+    "Latitude": "40.8295525",
+    "Longitude": "14.428513",
+    "Altitude": "873.567",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:33.000Z",
+    "Distance": "6487.7001953125",
+    "Latitude": "40.829571",
+    "Longitude": "14.42863583",
+    "Altitude": "874.939",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:34.000Z",
+    "Distance": "6497.89990234375",
+    "Latitude": "40.829578",
+    "Longitude": "14.4287615",
+    "Altitude": "874.939",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:35.000Z",
+    "Distance": "6506.89990234375",
+    "Latitude": "40.8295615",
+    "Longitude": "14.42888667",
+    "Altitude": "876.311",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:36.000Z",
+    "Distance": "6515.60009765625",
+    "Latitude": "40.8295275",
+    "Longitude": "14.429009",
+    "Altitude": "876.311",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:37.000Z",
+    "Distance": "6525.2001953125",
+    "Latitude": "40.829483",
+    "Longitude": "14.42913333",
+    "Altitude": "877.835",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:38.000Z",
+    "Distance": "6537.0",
+    "Latitude": "40.82943683",
+    "Longitude": "14.42925983",
+    "Altitude": "877.835",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:39.000Z",
+    "Distance": "6549.7998046875",
+    "Latitude": "40.82939083",
+    "Longitude": "14.429391",
+    "Altitude": "879.206",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:40.000Z",
+    "Distance": "6562.0",
+    "Latitude": "40.82934867",
+    "Longitude": "14.42951633",
+    "Altitude": "879.206",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:41.000Z",
+    "Distance": "6573.39990234375",
+    "Latitude": "40.82930933",
+    "Longitude": "14.4296315",
+    "Altitude": "880.578",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:42.000Z",
+    "Distance": "6584.2998046875",
+    "Latitude": "40.82927533",
+    "Longitude": "14.42972633",
+    "Altitude": "880.578",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:43.000Z",
+    "Distance": "6594.7001953125",
+    "Latitude": "40.829239",
+    "Longitude": "14.42979967",
+    "Altitude": "882.102",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:44.000Z",
+    "Distance": "6603.89990234375",
+    "Latitude": "40.82919417",
+    "Longitude": "14.4298455",
+    "Altitude": "882.102",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:45.000Z",
+    "Distance": "6611.2998046875",
+    "Latitude": "40.82914317",
+    "Longitude": "14.42985767",
+    "Altitude": "883.474",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:46.000Z",
+    "Distance": "6616.60009765625",
+    "Latitude": "40.82910217",
+    "Longitude": "14.429834",
+    "Altitude": "883.474",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:47.000Z",
+    "Distance": "6619.60009765625",
+    "Latitude": "40.82907933",
+    "Longitude": "14.4297885",
+    "Altitude": "884.998",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:48.000Z",
+    "Distance": "6621.10009765625",
+    "Latitude": "40.829068",
+    "Longitude": "14.42973733",
+    "Altitude": "884.998",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:49.000Z",
+    "Distance": "6621.5",
+    "Latitude": "40.8290595",
+    "Longitude": "14.42968833",
+    "Altitude": "886.674",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:50.000Z",
+    "Distance": "6621.5",
+    "Latitude": "40.82904917",
+    "Longitude": "14.429635",
+    "Altitude": "886.674",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:51.000Z",
+    "Distance": "6621.5",
+    "Latitude": "40.829041",
+    "Longitude": "14.4295685",
+    "Altitude": "888.35",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:52.000Z",
+    "Distance": "6622.39990234375",
+    "Latitude": "40.82903167",
+    "Longitude": "14.42948267",
+    "Altitude": "888.35",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:53.000Z",
+    "Distance": "6627.10009765625",
+    "Latitude": "40.82902533",
+    "Longitude": "14.42938017",
+    "Altitude": "890.027",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:54.000Z",
+    "Distance": "6635.0",
+    "Latitude": "40.82901983",
+    "Longitude": "14.42925933",
+    "Altitude": "890.027",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:55.000Z",
+    "Distance": "6645.10009765625",
+    "Latitude": "40.82901283",
+    "Longitude": "14.42912633",
+    "Altitude": "891.703",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:56.000Z",
+    "Distance": "6656.39990234375",
+    "Latitude": "40.828992",
+    "Longitude": "14.42898683",
+    "Altitude": "891.703",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:57.000Z",
+    "Distance": "6668.7001953125",
+    "Latitude": "40.82895017",
+    "Longitude": "14.4288535",
+    "Altitude": "893.532",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:58.000Z",
+    "Distance": "6681.89990234375",
+    "Latitude": "40.82889617",
+    "Longitude": "14.4287215",
+    "Altitude": "893.532",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:55:59.000Z",
+    "Distance": "6696.39990234375",
+    "Latitude": "40.82884633",
+    "Longitude": "14.428583",
+    "Altitude": "895.361",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:00.000Z",
+    "Distance": "6711.89990234375",
+    "Latitude": "40.82881",
+    "Longitude": "14.42843433",
+    "Altitude": "895.361",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:01.000Z",
+    "Distance": "6727.60009765625",
+    "Latitude": "40.82878833",
+    "Longitude": "14.42828883",
+    "Altitude": "897.19",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:02.000Z",
+    "Distance": "6742.10009765625",
+    "Latitude": "40.82877533",
+    "Longitude": "14.42814817",
+    "Altitude": "897.19",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:03.000Z",
+    "Distance": "6755.7998046875",
+    "Latitude": "40.82876817",
+    "Longitude": "14.42801283",
+    "Altitude": "899.171",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:04.000Z",
+    "Distance": "6768.89990234375",
+    "Latitude": "40.82875567",
+    "Longitude": "14.42787767",
+    "Altitude": "899.171",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:05.000Z",
+    "Distance": "6781.60009765625",
+    "Latitude": "40.8287325",
+    "Longitude": "14.42774933",
+    "Altitude": "901.152",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:06.000Z",
+    "Distance": "6793.10009765625",
+    "Latitude": "40.82869167",
+    "Longitude": "14.42763517",
+    "Altitude": "901.152",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:07.000Z",
+    "Distance": "6803.7998046875",
+    "Latitude": "40.82864433",
+    "Longitude": "14.42753083",
+    "Altitude": "903.133",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:08.000Z",
+    "Distance": "6813.89990234375",
+    "Latitude": "40.82859667",
+    "Longitude": "14.427437",
+    "Altitude": "903.133",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:09.000Z",
+    "Distance": "6823.2998046875",
+    "Latitude": "40.82855733",
+    "Longitude": "14.42735267",
+    "Altitude": "905.267",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:10.000Z",
+    "Distance": "6831.2998046875",
+    "Latitude": "40.82851967",
+    "Longitude": "14.427286",
+    "Altitude": "905.267",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:11.000Z",
+    "Distance": "6838.10009765625",
+    "Latitude": "40.82848583",
+    "Longitude": "14.42723267",
+    "Altitude": "907.401",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:12.000Z",
+    "Distance": "6843.7001953125",
+    "Latitude": "40.82845467",
+    "Longitude": "14.4271885",
+    "Altitude": "907.401",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:13.000Z",
+    "Distance": "6848.60009765625",
+    "Latitude": "40.82843133",
+    "Longitude": "14.427151",
+    "Altitude": "909.534",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:14.000Z",
+    "Distance": "6852.39990234375",
+    "Latitude": "40.82840917",
+    "Longitude": "14.42711417",
+    "Altitude": "909.534",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:15.000Z",
+    "Distance": "6855.2998046875",
+    "Latitude": "40.82838917",
+    "Longitude": "14.42707717",
+    "Altitude": "911.82",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:16.000Z",
+    "Distance": "6857.60009765625",
+    "Latitude": "40.82837",
+    "Longitude": "14.42704033",
+    "Altitude": "911.82",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:17.000Z",
+    "Distance": "6859.2998046875",
+    "Latitude": "40.82835483",
+    "Longitude": "14.42700933",
+    "Altitude": "913.954",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:18.000Z",
+    "Distance": "6860.39990234375",
+    "Latitude": "40.82834583",
+    "Longitude": "14.42698617",
+    "Altitude": "913.954",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:19.000Z",
+    "Distance": "6861.2001953125",
+    "Latitude": "40.8283405",
+    "Longitude": "14.4269685",
+    "Altitude": "916.24",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:20.000Z",
+    "Distance": "6861.7998046875",
+    "Latitude": "40.82833683",
+    "Longitude": "14.42695383",
+    "Altitude": "916.24",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:21.000Z",
+    "Distance": "6862.2998046875",
+    "Latitude": "40.82833583",
+    "Longitude": "14.4269435",
+    "Altitude": "918.678",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:22.000Z",
+    "Distance": "6862.60009765625",
+    "Latitude": "40.82833317",
+    "Longitude": "14.426933",
+    "Altitude": "918.678",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:23.000Z",
+    "Distance": "6863.0",
+    "Latitude": "40.82833317",
+    "Longitude": "14.4269215",
+    "Altitude": "920.964",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:24.000Z",
+    "Distance": "6863.2001953125",
+    "Latitude": "40.82832983",
+    "Longitude": "14.42690483",
+    "Altitude": "920.964",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:25.000Z",
+    "Distance": "6863.39990234375",
+    "Latitude": "40.82832733",
+    "Longitude": "14.42688583",
+    "Altitude": "923.25",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:26.000Z",
+    "Distance": "6863.7001953125",
+    "Latitude": "40.82832367",
+    "Longitude": "14.426869",
+    "Altitude": "923.25",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:27.000Z",
+    "Distance": "6864.10009765625",
+    "Latitude": "40.828319",
+    "Longitude": "14.42685367",
+    "Altitude": "925.536",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:28.000Z",
+    "Distance": "6865.0",
+    "Latitude": "40.82831283",
+    "Longitude": "14.42684333",
+    "Altitude": "925.536",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:29.000Z",
+    "Distance": "6866.0",
+    "Latitude": "40.82830567",
+    "Longitude": "14.42683417",
+    "Altitude": "927.975",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:30.000Z",
+    "Distance": "6867.2001953125",
+    "Latitude": "40.8283005",
+    "Longitude": "14.42682717",
+    "Altitude": "927.975",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:31.000Z",
+    "Distance": "6868.2998046875",
+    "Latitude": "40.82829933",
+    "Longitude": "14.42682217",
+    "Altitude": "930.261",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:32.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.8283005",
+    "Longitude": "14.426821",
+    "Altitude": "930.261",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:33.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.8283025",
+    "Longitude": "14.426821",
+    "Altitude": "932.547",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:34.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.82830283",
+    "Longitude": "14.42681817",
+    "Altitude": "932.547",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:35.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.828301",
+    "Longitude": "14.4268125",
+    "Altitude": "934.833",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:36.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.828298",
+    "Longitude": "14.42680583",
+    "Altitude": "934.833",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:37.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.82829683",
+    "Longitude": "14.42679917",
+    "Altitude": "937.119",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:38.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.8282995",
+    "Longitude": "14.42679367",
+    "Altitude": "937.119",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:39.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.82830333",
+    "Longitude": "14.42679117",
+    "Altitude": "939.253",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:40.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.828307",
+    "Longitude": "14.42679067",
+    "Altitude": "939.253",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:41.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.82830867",
+    "Longitude": "14.42679083",
+    "Altitude": "941.386",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:42.000Z",
+    "Distance": "6869.2001953125",
+    "Latitude": "40.8283115",
+    "Longitude": "14.426791",
+    "Altitude": "941.386",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:43.000Z",
+    "Distance": "6869.39990234375",
+    "Latitude": "40.82831317",
+    "Longitude": "14.42679133",
+    "Altitude": "943.367",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:44.000Z",
+    "Distance": "6869.39990234375",
+    "Latitude": "40.828315",
+    "Longitude": "14.42679217",
+    "Altitude": "943.367",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:45.000Z",
+    "Distance": "6869.39990234375",
+    "Latitude": "40.8283155",
+    "Longitude": "14.4267915",
+    "Altitude": "945.196",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:46.000Z",
+    "Distance": "6869.39990234375",
+    "Latitude": "40.82831567",
+    "Longitude": "14.42679033",
+    "Altitude": "945.196",
+    "HeartRate": 0,
+    "Cadence": 0
+}, {
+    "DateTime": "2016-02-01T10:56:47.000Z",
+    "Distance": "6869.39990234375",
+    "Latitude": "40.82831567",
+    "Longitude": "14.42678817",
+    "Altitude": "947.177",
+    "HeartRate": 0,
+    "Cadence": 0
+}]
