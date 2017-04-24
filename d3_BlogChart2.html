@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <script type="text/javascript" src="d3/d3.min.js"></script>
+    <script type="text/javascript" src="scripts/data.js"></script>
+    <style>
+    svg {
+        display: block;
+        margin: auto;
+        border: 1px solid lightgrey;
+    }
+    
+    body {
+        font: 16px Arial;
+    }
+    
+    h2 {
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 200;
+    }
+    </style>
+</head>
+
+<body>
+
+    <h2>Trainings In Time</h2>
+
+    <div id="chart">
+    </div>
+
+    <script>
+
+    // Set the dimensions of the canvas / graph
+    var margin = {
+        top: 30,
+        right: 30,
+        bottom: 0,
+        left: 60
+    };
+    var w = 800,
+        h = 500,
+        padding = 50;
+
+    var width = w - margin.left - margin.right,
+        height = h - margin.top - margin.bottom;
+
+    // we have data variable in svg and in the data.js array, 
+    // so to make it simple to change later, let's assign it like that
+    var data = data;
+
+    data.forEach(function(d) {
+        d.StartTime = Date.parse(d.StartTime);
+    })
+
+    var svg = d3.select("#chart").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+    // let's start to draw a chart!
+    svg.selectAll("rect")
+        .data(data)
+        .enter()
+        .append("rect")
+        .attr({
+            x: function(d, i) {
+                var ret = (width / data.length) * i;
+                return ret;
+            },
+            y: function() {
+                var ret = 0;
+                return ret;
+            },
+            width: function(d) {
+                var ret =  width / data.length - 2;
+                return ret;
+            },
+            height: function() {
+                var ret = height / 2;
+                return ret;
+            },
+            fill: "purple"
+        });
+    </script>
+</body>

@@ -1,0 +1,169 @@
+var data = [{
+    "Type": "Running",
+    "StartTime": "2017-01-22T15:00:30.000Z",
+    "Distance": "6752.7998046875",
+    "HrAvg": null,
+    "Calories": 659
+}, {
+    "Type": "Running",
+    "StartTime": "2017-01-25T13:59:08.000Z",
+    "Distance": "5720.7998046875",
+    "HrAvg": null,
+    "Calories": 537
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-04T12:37:40.000Z",
+    "Distance": "7580.5",
+    "HrAvg": null,
+    "Calories": 543
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-05T07:53:41.000Z",
+    "Distance": "3320.5",
+    "HrAvg": null,
+    "Calories": 425
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-06T09:57:29.000Z",
+    "Distance": "1083.9000244140625",
+    "HrAvg": null,
+    "Calories": 112
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-06T10:36:03.000Z",
+    "Distance": "1987.699951171875",
+    "HrAvg": null,
+    "Calories": 164
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-06T11:42:33.000Z",
+    "Distance": "4597.7001953125",
+    "HrAvg": null,
+    "Calories": 357
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-07T17:33:53.000Z",
+    "Distance": "7071.0",
+    "HrAvg": null,
+    "Calories": 344
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-09T14:23:29.000Z",
+    "Distance": "2525.60009765625",
+    "HrAvg": null,
+    "Calories": 532
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-14T11:24:13.000Z",
+    "Distance": "1653.9000244140625",
+    "HrAvg": null,
+    "Calories": 499
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-16T12:48:25.000Z",
+    "Distance": "1661.9000244140625",
+    "HrAvg": null,
+    "Calories": 636
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-19T07:43:20.000Z",
+    "Distance": "9528.900390625",
+    "HrAvg": null,
+    "Calories": 836
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-20T13:58:36.000Z",
+    "Distance": "4846.2001953125",
+    "HrAvg": null,
+    "Calories": 425
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-22T12:46:57.000Z",
+    "Distance": "4171.60009765625",
+    "HrAvg": null,
+    "Calories": 363
+}, {
+    "Type": "Running",
+    "StartTime": "2017-02-26T13:38:01.000Z",
+    "Distance": "12219.2998046875",
+    "HrAvg": null,
+    "Calories": 1229
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-01T18:02:06.000Z",
+    "Distance": "5018.5",
+    "HrAvg": null,
+    "Calories": 425
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-05T07:55:05.000Z",
+    "Distance": "341.6000061035156",
+    "HrAvg": null,
+    "Calories": 1078
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-12T10:06:48.000Z",
+    "Distance": "10029.400390625",
+    "HrAvg": null,
+    "Calories": 554
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-16T19:04:59.000Z",
+    "Distance": "4028.800048828125",
+    "HrAvg": null,
+    "Calories": 325
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-19T13:31:17.000Z",
+    "Distance": "10570.2998046875",
+    "HrAvg": null,
+    "Calories": 559
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-23T18:33:01.000Z",
+    "Distance": "5006.60009765625",
+    "HrAvg": null,
+    "Calories": 439
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-26T06:13:39.000Z",
+    "Distance": "11008.2998046875",
+    "HrAvg": null,
+    "Calories": 595
+}, {
+    "Type": "Running",
+    "StartTime": "2017-03-31T15:19:19.000Z",
+    "Distance": "4016.60009765625",
+    "HrAvg": null,
+    "Calories": 340
+}, {
+    "Type": "Running",
+    "StartTime": "2017-04-03T18:08:00.000Z",
+    "Distance": "7329.89990234375",
+    "HrAvg": null,
+    "Calories": 599
+}, {
+    "Type": "Running",
+    "StartTime": "2017-04-05T17:14:03.000Z",
+    "Distance": "4632.89990234375",
+    "HrAvg": null,
+    "Calories": 405
+}, {
+    "Type": "Running",
+    "StartTime": "2017-04-08T11:36:46.000Z",
+    "Distance": "4511.2998046875",
+    "HrAvg": null,
+    "Calories": 402
+}, {
+    "Type": "Running",
+    "StartTime": "2017-04-09T06:12:07.000Z",
+    "Distance": "7574.7998046875",
+    "HrAvg": null,
+    "Calories": 687
+}, {
+    "Type": "Running",
+    "StartTime": "2017-04-10T04:32:12.000Z",
+    "Distance": "5255.10009765625",
+    "HrAvg": null,
+    "Calories": 447
+}];
