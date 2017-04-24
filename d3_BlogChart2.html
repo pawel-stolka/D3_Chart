@@ -46,18 +46,20 @@
 
     var data = data;
 
+    // parse string
     data.forEach(function(d) {
         d.StartTime = Date.parse(d.StartTime);
     })
 
+    // here we append svg to our html
     var svg = d3.select("#chart").append("svg")
         .attr("width", width)
         .attr("height", height);
 
     // let's start to draw a chart!
+    //  functions => look further
     function calculateX(d, i) {
-        var ret = i * width / data.length;// i * 10;
-
+        var ret = i * width / data.length;
         return ret;
     }
 
@@ -72,10 +74,11 @@
     }
 
     function calculateHeight(d, i) {
-        var ret = i * 0.25;
+        var ret = i * 10;
         return ret;
     }
 
+    // here: for simplicity purpose we put functions from above here, can be directly written here as well
     svg.selectAll("rect")
         .data(data)
         .enter()
@@ -94,7 +97,7 @@
             height: function(d, i) {
                 return calculateHeight(d, i);
             },
-            fill: "purple"// "#aa00ff"
+            fill: "purple"
         });
     </script>
 </body>
