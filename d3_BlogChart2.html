@@ -185,5 +185,21 @@
             },
             fill: "purple"
         });
+
+    // add the X axe label
+    svg.append("text")
+        .attr("x", width - 120)
+        .attr("y", height - 20)
+        .attr("class", "legend")
+        .style("fill", "steelblue")
+        .text("Time intervals");
+
+    // add the Y axe label
+    svg.append("text")
+        .attr("x", 10)
+        .attr("y", 30) //height )//+ margin.top -35)
+        .attr("class", "legend")
+        .style("fill", "red")
+        .text("Altitude n.p.m.");
     </script>
 </body>
