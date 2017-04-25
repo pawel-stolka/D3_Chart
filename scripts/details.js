@@ -3,7 +3,7 @@ var details = [{
     "Distance": "3.214545514848497",
     "Latitude": null,
     "Longitude": null,
-    "Altitude": "298.86",
+    "Altitude": "298.86", // i.e. increase this value for the last step - 598.86...
     "HeartRate": 0,
     "Cadence": 54
 }, {

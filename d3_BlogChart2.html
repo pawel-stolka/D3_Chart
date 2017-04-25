@@ -4,9 +4,7 @@
 <head>
     <script type="text/javascript" src="d3/d3.min.js"></script>
     <script type="text/javascript" src="scripts/data.js"></script>
-    <script type="text/javascript" src="scripts/data2.js"></script>
-    <script type="text/javascript" src="scripts/data3.js"></script>
-    <script type="text/javascript" src="scripts/data4.js"></script>
+    <script type="text/javascript" src="scripts/details.js"></script>
     <style>
     svg {
         display: block;
@@ -16,6 +14,28 @@
     
     body {
         font: 16px Arial;
+    }
+
+    path {
+        stroke: steelblue;
+        stroke-width: 2;
+        fill: none;
+    }
+
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: grey;
+        stroke-width: 1;
+        shape-rendering: crispEdges;
+    }
+
+    .axisSteelBlue text {
+        fill: steelblue;
+    }
+    
+    .axisRed text {
+        fill: red;
     }
     
     h2 {
@@ -28,7 +48,7 @@
 </head>
 
 <body>
-    <h2>Trainings in Time</h2>
+    <h2>Trainings in Time2</h2>
     <div id="chart">
     </div>
 
@@ -40,12 +60,12 @@
         bottom: 0,
         left: 60
     };
-    var w = 800,
+    var w = 1000,
         h = 500,
         padding = 70;
 
-    var width = w - margin.left - margin.right,
-        height = h - margin.top - margin.bottom;
+    var width = w - margin.left - margin.right - padding,
+        height = h - margin.top - margin.bottom - padding;
 
     // let's use data2.js & simplify it, take each 100th element
     // var data = data;
@@ -59,7 +79,7 @@
     var data = dataSmall;
 
     // parse string
-    data.forEach(function(d) {
+    details.forEach(function(d) {
         d.StartTime = Date.parse(d.StartTime);
     })
 
@@ -84,10 +104,10 @@
     var yScale = d3.scale.linear() // or i.e. pow()
         .domain([
             d3.min(data, function(d) {
-                return d.Distance;
+                return d.Altitude;  // we look at the Altitude value in details.js => try with Cadence in that example (or modify HeartRate's, or add another properties in data file)
             }),
             d3.max(data, function(d) {
-                return d.Distance;
+                return d.Altitude;
             })
         ])
         .range([height - padding, padding])
@@ -103,9 +123,28 @@
         .attr("class", "axisRed")
         .attr("transform", "translate(" + padding + ", 0)");
 
+    // a bit more complex
+    var xScale = d3.scale.linear() //.time.scale() <= try if you think you can ;)
+        .domain([
+            0,
+            data.length
+        ])
+        .range([padding, width])
+        // .range([padding, width - padding]);//
+        .nice();
+
+    var xAxisGenerator = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom");
+
+    var xAxis = svg.append("g")
+        .call(xAxisGenerator)
+        .attr("class", "axisSteelBlue")
+        .attr("transform", "translate(0, " + (height - padding) + ")");
+
     //  functions => look further
     function calculateX(d, i) {
-        var ret = i * width / data.length + padding;
+        var ret = xScale(i);
         return ret;
     }
 
@@ -116,11 +155,12 @@
 
     function calculateWidth() {
         var ret = width / data.length;
-        return ret;
+        return ret - 3; // space 3pts between bars
     }
 
+    // try modify values of min/max Altitude's in data file in order to see how d3.scale and axis works with min/max values
     function calculateHeight(d, i) {
-        var ret = yScale(d.Distance) - padding;
+        var ret = yScale(d.Altitude) - padding;
         return ret;
     }
 
